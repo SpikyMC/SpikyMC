@@ -16,7 +16,7 @@
 
 ## Installation
 
-- All downloads and installation instructions for SpikyMC can be found on our website: <https://mc.spiky.green/download>
+- All downloads and installation instructions for SpikyMC can be found on our [Website](https://mc.spiky.green/download).
 - The last build status can be found in the [GitHub Actions](https://github.com/SpikyMC/SpikyMC/actions) tab (this also includes the pull request status).
 
 ### Development Builds

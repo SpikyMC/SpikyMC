@@ -1030,7 +1030,7 @@ void MainWindow::processURLs(QList<QUrl> urls)
                 continue;
             } else if ((url.scheme() == "spikymc" || url.scheme() == BuildConfig.LAUNCHER_APP_BINARY_NAME) && isExternalURLImport) {
                 // SpikyMC URL protocol modpack import
-                // works for any prism fork
+                // works for any fork
                 // preferred import format: spikymc://import?url=ENCODED
                 const auto host = url.host().toLower();
                 const auto path = url.path();

@@ -2,9 +2,7 @@
 
 ## Installing a stable release (nixpkgs)
 
-SpikyMC is packaged in [nixpkgs](https://github.com/NixOS/nixpkgs/) since 22.11.
-
-Check the [NixOS Wiki](https://wiki.nixos.org/wiki/Prism_Launcher) for upstream instructions.
+SpikyMC is not published to nixpkgs; use one of the flake-based methods below.
 
 ## Installing a development release (flake)
 
@@ -20,7 +18,7 @@ Example (NixOS):
     trusted-substituters = [ "https://spikymc.cachix.org" ];
 
     trusted-public-keys = [
-      "spikymc.cachix.org-1:9/n/FGyABA2jLUVfY+DEp4hKds/rwO+SCOtbOkDzd+c="
+      "spikymc.cachix.org-1:NnwZBpw+y4QQ8dn8dVW5OEBjulyRq+X+TadVNlwi8T0="
     ];
   };
 }
@@ -140,7 +138,7 @@ Example (NixOS):
     trusted-substituters = [ "https://spikymc.cachix.org" ];
 
     trusted-public-keys = [
-      "spikymc.cachix.org-1:9/n/FGyABA2jLUVfY+DEp4hKds/rwO+SCOtbOkDzd+c="
+      "spikymc.cachix.org-1:NnwZBpw+y4QQ8dn8dVW5OEBjulyRq+X+TadVNlwi8T0="
     ];
   };
 }

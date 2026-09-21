@@ -1,4 +1,4 @@
-﻿# SpikyMC Nix Packaging
+# SpikyMC Nix Packaging
 
 ## Installing a stable release (nixpkgs)
 
@@ -26,7 +26,7 @@ Example (NixOS):
 
 ### Installing the package directly
 
-After adding `github:SpikyMC/SpikyMC` to your flake inputs, you can access the flake's `packages` output.
+After adding `github:SpikyTeam/SpikyMC` to your flake inputs, you can access the flake's `packages` output.
 
 Example:
 
@@ -36,7 +36,7 @@ Example:
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     spikymc = {
-      url = "github:SpikyMC/SpikyMC";
+      url = "github:SpikyTeam/SpikyMC";
 
       # Optional: Override the nixpkgs input of spikymc to use the same revision as the rest of your flake
       # Note that this may break the reproducibility mentioned above, and you might not be able to access the binary cache
@@ -81,7 +81,7 @@ Example:
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     spikymc = {
-      url = "github:SpikyMC/SpikyMC";
+      url = "github:SpikyTeam/SpikyMC";
 
       # Optional: Override the nixpkgs input of spikymc to use the same revision as the rest of your flake
       # Note that this may break the reproducibility mentioned above, and you might not be able to access the binary cache
@@ -118,11 +118,11 @@ You can simply call the default package of this flake.
 Example:
 
 ```shell
-nix run github:SpikyMC/SpikyMC
+nix run github:SpikyTeam/SpikyMC
 
-nix shell github:SpikyMC/SpikyMC
+nix shell github:SpikyTeam/SpikyMC
 
-nix profile install github:SpikyMC/SpikyMC
+nix profile install github:SpikyTeam/SpikyMC
 ```
 
 ## Installing a development release (without flakes)
@@ -155,7 +155,7 @@ Example:
 {
   environment.systemPackages = [
     (import (
-      builtins.fetchTarball "https://github.com/SpikyMC/SpikyMC/archive/develop.tar.gz"
+      builtins.fetchTarball "https://github.com/SpikyTeam/SpikyMC/archive/develop.tar.gz"
     )).packages.${pkgs.system}.spikymc
   ];
 }
@@ -173,7 +173,7 @@ Example:
 {
   nixpkgs.overlays = [
     (import (
-      builtins.fetchTarball "https://github.com/SpikyMC/SpikyMC/archive/develop.tar.gz"
+      builtins.fetchTarball "https://github.com/SpikyTeam/SpikyMC/archive/develop.tar.gz"
     )).overlays.default
   ];
 
@@ -188,7 +188,7 @@ You can add this repository as a channel and install its packages that way.
 Example:
 
 ```shell
-nix-channel --add https://github.com/SpikyMC/SpikyMC/archive/develop.tar.gz spikymc
+nix-channel --add https://github.com/SpikyTeam/SpikyMC/archive/develop.tar.gz spikymc
 
 nix-channel --update spikymc
 

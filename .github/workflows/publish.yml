@@ -20,7 +20,7 @@ jobs:
         # @Octol1ttle: Pinned to a commit because no release has been published that works on ubuntu-slim
         uses: vedantmgoyal2009/winget-releaser@7bd472be23763def6e16bd06cc8b1cdfab0e2fd5 # docs: add description to inputs (#335)
         with:
-          identifier: SpikyMC.SpikyMC
+          identifier: SpikyTeam.SpikyMC
           version: ${{ github.event.release.tag_name }}
           installers-regex: 'SpikyMC-Windows-MSVC(:?-arm64|-Legacy)?-Setup-.+\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}

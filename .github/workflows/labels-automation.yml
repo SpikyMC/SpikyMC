@@ -19,7 +19,7 @@ jobs:
   run-labels-script:
     name: Run script
     runs-on: ubuntu-slim
-    if: github.repository_owner == 'SpikyMC'
+    if: github.repository_owner == 'SpikyTeam'
 
     steps:
       - name: Generate token

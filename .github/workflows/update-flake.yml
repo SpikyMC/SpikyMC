@@ -10,7 +10,7 @@ permissions: {}
 
 jobs:
   update-flake:
-    if: github.repository == 'SpikyMC/SpikyMC'
+    if: github.repository == 'SpikyTeam/SpikyMC'
 
     permissions:
       contents: write

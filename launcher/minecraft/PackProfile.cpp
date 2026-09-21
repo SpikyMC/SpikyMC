@@ -335,7 +335,7 @@ Result<> PackProfile::reload(Net::Mode netmode)
             return {};
         }
 
-        // https://github.com/SpikyMC/SpikyMC/issues/5209
+        // https://github.com/SpikyTeam/SpikyMC/issues/5209
         // FIXME: HACK HACK HACK
         disconnect(d->m_updateTask.get(), &ComponentUpdateTask::aborted, nullptr, nullptr);
         d->m_updateTask->abort();

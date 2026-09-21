@@ -16,8 +16,8 @@
 
 ## Installation
 
-- All downloads and installation instructions for SpikyMC can be found in the [Releases](https://github.com/SpikyMC/SpikyMC/releases).
-- The last build status can be found in the [GitHub Actions](https://github.com/SpikyMC/SpikyMC/actions) tab (this also includes the pull request status).
+- All downloads and installation instructions for SpikyMC can be found in the [Releases](https://github.com/SpikyTeam/SpikyMC/releases).
+- The last build status can be found in the [GitHub Actions](https://github.com/SpikyTeam/SpikyMC/actions) tab (this also includes the pull request status).
 
 ### Development Builds
 
@@ -25,7 +25,7 @@ Please understand that these builds are not intended for most users. There may b
 
 Development builds are available through:
 
-- [GitHub Actions](https://github.com/SpikyMC/SpikyMC/actions)
+- [GitHub Actions](https://github.com/SpikyTeam/SpikyMC/actions)
 
 These have debug information in the binaries, so their file sizes are relatively larger.
 
@@ -47,7 +47,7 @@ We are grateful to the Prism Launcher community for their work.
 
 You are free to fork, redistribute and provide custom builds of SpikyMC as long as you follow the terms of the [license](LICENSE) (this is a legal responsibility). If you made code changes rather than just packaging a custom build, please do the following as a basic courtesy:
 
-- Make it clear that your fork is not SpikyMC and is not endorsed by or affiliated with the SpikyMC project (<https://github.com/SpikyMC/SpikyMC>).
+- Make it clear that your fork is not SpikyMC and is not endorsed by or affiliated with the SpikyMC project (<https://github.com/SpikyTeam/SpikyMC>).
 - Go through [CMakeLists.txt](CMakeLists.txt) and change SpikyMC's API keys to your own or set them to empty strings (`""`) to disable them (this way the program will still compile but the functionality requiring those keys will be disabled).
 
 If you have any questions or want any clarification on the above conditions please make an issue and ask us.
@@ -61,7 +61,7 @@ Note that if you build this software without removing the provided API keys in [
 
 If you do not agree with these terms and conditions, then remove the associated API keys from the [CMakeLists.txt](CMakeLists.txt) file by setting them to an empty string (`""`).
 
-## License [![License](https://img.shields.io/github/license/SpikyMC/SpikyMC?label=License&logo=gnu&color=C4282D)](LICENSE)
+## License [![License](https://img.shields.io/github/license/SpikyTeam/SpikyMC?label=License&logo=gnu&color=C4282D)](LICENSE)
 
 All launcher code is available under the GPL-3.0-only license.
 

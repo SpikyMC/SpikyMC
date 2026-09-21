@@ -1,4 +1,4 @@
-﻿{
+{
   description = "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)";
 
   nixConfig = {
@@ -103,7 +103,7 @@
             ```
 
             Feel free to ask any questions in the GitHub issue tracker:
-              - https://github.com/SpikyMC/SpikyMC/issues
+              - https://github.com/SpikyTeam/SpikyMC/issues
 
             And thanks for helping out :)
           '';

@@ -1,91 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-  width="48"
-  height="48"
-  version="1.1"
-  viewBox="0 0 12.7 12.7"
-  id="svg_combined"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:cc="http://creativecommons.org/ns#"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title>Prism Launcher Logo</title>
-  <g
-    transform="matrix(0.88,0,0,0.88,-10.906,-1.2421)"
-    id="g32_top"
-    style="display:inline">
-    <g
-      transform="translate(13.26,2.2776)"
-      id="g28"
-      style="display:inline">
-      <path
-        transform="matrix(0.96975,0,0,0.96975,0.1921,0.1921)"
-        d="m 6.3498,2.9393 c -0.34105,0 -2.7827,1.4099 -2.9532,1.7052 L 6.3498,9.7602 9.3036,4.6445 C 9.13308,4.34915 6.6909,2.9393 6.3498,2.9393 Z"
-        fill="#ffffff"
-        stroke-width="0.26458"
-        id="path26"
-        style="display:inline" />
-    </g>
-  </g>
-  <g
-    transform="matrix(0.88,0,0,0.88,-10.906,-1.2421)"
-    id="g32"
-    style="display:inline">
-    <path
-      d="m 16.746,6.9737 2.8639,4.9609 c 0.33073,0 2.6991,-1.3672 2.8644,-1.6536 0.16536,-0.28642 0.16536,-3.0209 0,-3.3073 l -2.8644,1.6536 z"
-      fill="#dfdfdf"
-      stroke-width="0.26458"
-      id="path30"
-      style="display:inline" />
-  </g>
-  <path
-    d="m 3.8299,4.8948 c -0.14551,0.25205 -0.14553,2.6584 0,2.9104 0.14553,0.25204 2.2292,1.4552 2.5203,1.4552 V 6.35 Z"
-    fill="#d6d2d2"
-    stroke-width="0.26458"
-    id="path34"
-    style="display:inline" />
-  <metadata
-    id="metadata64">
-    <rdf:RDF>
-      <cc:Work
-        rdf:about="">
-        <dc:title>Prism Launcher Logo</dc:title>
-        <dc:date>19/10/2022</dc:date>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Prism Launcher</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:contributor>
-          <cc:Agent>
-            <dc:title>AutiOne, Boba, ely, Fulmine, gon sawa, Pankakes, tobimori, Zeke</dc:title>
-          </cc:Agent>
-        </dc:contributor>
-        <dc:source>https://github.com/PrismLauncher/PrismLauncher</dc:source>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title>Prism Launcher</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <cc:license
-          rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-      </cc:Work>
-      <cc:License
-        rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
-        <cc:permits
-          rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-          rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:requires
-          rdf:resource="http://creativecommons.org/ns#Notice" />
-        <cc:requires
-          rdf:resource="http://creativecommons.org/ns#Attribution" />
-        <cc:permits
-          rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-        <cc:requires
-          rdf:resource="http://creativecommons.org/ns#ShareAlike" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6828 19.2283C21.6828 22.4437 19.0676 25.0503 15.8415 25.0503C12.6153 25.0503 10 22.4437 10 19.2283C10 16.0129 12.6153 13.4062 15.8415 13.4062C19.0676 13.4062 21.6828 16.0129 21.6828 19.2283Z" fill="#80D05D"/>
+<path d="M38.969 19.2283C38.969 22.4437 36.3537 25.0503 33.1275 25.0503C29.9014 25.0503 27.2861 22.4437 27.2861 19.2283C27.2861 16.0129 29.9014 13.4062 33.1275 13.4062C36.3537 13.4062 38.969 16.0129 38.969 19.2283Z" fill="#80D05D"/>
+<path d="M16.1998 30.1595C16.1998 32.9517 18.7032 34.8527 21.624 35.3281C22.7565 35.6251 24.8427 35.7789 27.4057 35.3281C29.4324 34.9715 32.7704 33.1299 32.7704 30.1595C32.7704 27.6002 30.3265 24.6346 27.4057 25.5256C24.485 26.4167 24.485 26.4167 21.624 25.5256C18.7628 24.6346 15.9613 27.5455 16.1998 30.1595Z" fill="#80D05D"/>
+<path d="M21.6828 17.8221C21.6828 21.0374 19.0676 23.644 15.8415 23.644C12.6153 23.644 10 21.0374 10 17.8221C10 14.6066 12.6153 12 15.8415 12C19.0676 12 21.6828 14.6066 21.6828 17.8221Z" fill="#2A641C"/>
+<path d="M38.969 17.8221C38.969 21.0374 36.3537 23.644 33.1275 23.644C29.9014 23.644 27.2861 21.0374 27.2861 17.8221C27.2861 14.6066 29.9014 12 33.1275 12C36.3537 12 38.969 14.6066 38.969 17.8221Z" fill="#2A641C"/>
+<path d="M16.1998 28.7533C16.1998 31.5454 18.7032 33.4465 21.624 33.9218C22.7565 34.2188 24.8427 34.3726 27.4057 33.9218C29.4324 33.5653 32.7704 31.7236 32.7704 28.7533C32.7704 26.194 30.3265 23.2283 27.4057 24.1194C24.485 25.0105 24.485 25.0105 21.624 24.1194C18.7628 23.2283 15.9613 26.1392 16.1998 28.7533Z" fill="#2A641C"/>
+<path d="M21.6828 18.2908C21.6828 21.5062 19.0676 24.1128 15.8415 24.1128C12.6153 24.1128 10 21.5062 10 18.2908C10 15.0754 12.6153 12.4688 15.8415 12.4688C19.0676 12.4688 21.6828 15.0754 21.6828 18.2908Z" fill="black"/>
+<path d="M38.969 18.2908C38.969 21.5062 36.3537 24.1128 33.1275 24.1128C29.9014 24.1128 27.2861 21.5062 27.2861 18.2908C27.2861 15.0754 29.9014 12.4688 33.1275 12.4688C36.3537 12.4688 38.969 15.0754 38.969 18.2908Z" fill="black"/>
+<path d="M16.1998 29.222C16.1998 32.0142 18.7032 33.9152 21.624 34.3906C22.7565 34.6876 24.8427 34.8414 27.4057 34.3906C29.4324 34.034 32.7704 32.1924 32.7704 29.222C32.7704 26.6627 30.3265 23.6971 27.4057 24.5881C24.485 25.4792 24.485 25.4792 21.624 24.5881C18.7628 23.6971 15.9613 26.608 16.1998 29.222Z" fill="black"/>
 </svg>

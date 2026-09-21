@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-3.0-only
 /*
  *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2023 TheKodeToad <TheKodeToad@proton.me>

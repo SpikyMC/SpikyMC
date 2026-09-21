@@ -1,4 +1,4 @@
-﻿package team.spiky.mc;
+package team.spiky.mc;
 
 import team.spiky.mc.utils.Parameters;
 

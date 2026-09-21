@@ -42,6 +42,7 @@
 #include <QEvent>
 #include <QFileIconProvider>
 #include <QFileSystemModel>
+#include <QIdentityProxyModel>
 #include <QKeyEvent>
 #include <QLineEdit>
 #include <QMenu>

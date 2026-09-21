@@ -1,4 +1,4 @@
-﻿// SPDX-License-Identifier: GPL-3.0-only
+// SPDX-License-Identifier: GPL-3.0-only
 /*
  *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2022 icelimetea <fr3shtea@outlook.com>

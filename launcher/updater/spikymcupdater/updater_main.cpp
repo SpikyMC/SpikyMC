@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2022 Rachel Powers <508861+Ryex@users.noreply.github.com>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
  *
  */
 
-#include "PrismUpdater.h"
+#include "SpikyMCUpdater.h"
 
 #if defined Q_OS_WIN32
 #include "console/WindowsConsole.h"
@@ -33,16 +33,16 @@ int main(int argc, char* argv[])
     console::WindowsConsoleGuard _consoleGuard;
 #endif
 
-    PrismUpdaterApp wUpApp(argc, argv);
+    SpikyMCUpdaterApp wUpApp(argc, argv);
 
     switch (wUpApp.status()) {
-        case PrismUpdaterApp::Starting:
-        case PrismUpdaterApp::Initialized: {
+        case SpikyMCUpdaterApp::Starting:
+        case SpikyMCUpdaterApp::Initialized: {
             return wUpApp.exec();
         }
-        case PrismUpdaterApp::Failed:
+        case SpikyMCUpdaterApp::Failed:
             return 1;
-        case PrismUpdaterApp::Succeeded:
+        case SpikyMCUpdaterApp::Succeeded:
             return 0;
         default:
             return -1;

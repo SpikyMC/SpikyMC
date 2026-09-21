@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2023 Rachel Powers <508861+Ryex@users.noreply.github.com>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
  *
  */
 
-#include "PrismExternalUpdater.h"
+#include "SpikyMCExternalUpdater.h"
 
 #include <QCoreApplication>
 #include <QDir>
@@ -38,7 +38,7 @@
 
 #include "ui/dialogs/UpdateAvailableDialog.h"
 
-class PrismExternalUpdater::Private {
+class SpikyMCExternalUpdater::Private {
    public:
     QDir appDir;
     QDir dataDir;
@@ -52,12 +52,12 @@ class PrismExternalUpdater::Private {
     QWidget* parent{};
 };
 
-PrismExternalUpdater::PrismExternalUpdater(QWidget* parent, const QString& appDir, const QString& dataDir)
-    : priv(new PrismExternalUpdater::Private())
+SpikyMCExternalUpdater::SpikyMCExternalUpdater(QWidget* parent, const QString& appDir, const QString& dataDir)
+    : priv(new SpikyMCExternalUpdater::Private())
 {
     priv->appDir = QDir(appDir);
     priv->dataDir = QDir(dataDir);
-    auto settingsFile = priv->dataDir.absoluteFilePath("prismlauncher_update.cfg");
+    auto settingsFile = priv->dataDir.absoluteFilePath("spikymc_update.cfg");
     priv->settings = std::make_unique<QSettings>(settingsFile, QSettings::Format::IniFormat);
     priv->allowBeta = priv->settings->value("allow_beta", false).toBool();
     priv->autoCheck = priv->settings->value("auto_check", true).toBool();
@@ -78,7 +78,7 @@ PrismExternalUpdater::PrismExternalUpdater(QWidget* parent, const QString& appDi
     }
 }
 
-PrismExternalUpdater::~PrismExternalUpdater()
+SpikyMCExternalUpdater::~SpikyMCExternalUpdater()
 {
     if (priv->updateTimer.isActive()) {
         priv->updateTimer.stop();
@@ -88,12 +88,12 @@ PrismExternalUpdater::~PrismExternalUpdater()
     delete priv;
 }
 
-void PrismExternalUpdater::checkForUpdates()
+void SpikyMCExternalUpdater::checkForUpdates()
 {
     checkForUpdates(true);
 }
 
-void PrismExternalUpdater::checkForUpdates(bool triggeredByUser) const
+void SpikyMCExternalUpdater::checkForUpdates(bool triggeredByUser) const
 {
     QProgressDialog progress(tr("Checking for updates..."), "", 0, 0, priv->parent);
     progress.setMinimumDuration(0); // Appear immediately without waiting
@@ -227,22 +227,22 @@ void PrismExternalUpdater::checkForUpdates(bool triggeredByUser) const
     resetAutoCheckTimer();
 }
 
-bool PrismExternalUpdater::getAutomaticallyChecksForUpdates()
+bool SpikyMCExternalUpdater::getAutomaticallyChecksForUpdates()
 {
     return priv->autoCheck;
 }
 
-double PrismExternalUpdater::getUpdateCheckInterval()
+double SpikyMCExternalUpdater::getUpdateCheckInterval()
 {
     return priv->updateInterval;
 }
 
-bool PrismExternalUpdater::getBetaAllowed()
+bool SpikyMCExternalUpdater::getBetaAllowed()
 {
     return priv->allowBeta;
 }
 
-void PrismExternalUpdater::setAutomaticallyChecksForUpdates(bool check)
+void SpikyMCExternalUpdater::setAutomaticallyChecksForUpdates(bool check)
 {
     priv->autoCheck = check;
     priv->settings->setValue("auto_check", check);
@@ -250,7 +250,7 @@ void PrismExternalUpdater::setAutomaticallyChecksForUpdates(bool check)
     resetAutoCheckTimer();
 }
 
-void PrismExternalUpdater::setUpdateCheckInterval(double seconds)
+void SpikyMCExternalUpdater::setUpdateCheckInterval(double seconds)
 {
     priv->updateInterval = seconds;
     priv->settings->setValue("update_interval", seconds);
@@ -258,14 +258,14 @@ void PrismExternalUpdater::setUpdateCheckInterval(double seconds)
     resetAutoCheckTimer();
 }
 
-void PrismExternalUpdater::setBetaAllowed(bool allowed)
+void SpikyMCExternalUpdater::setBetaAllowed(bool allowed)
 {
     priv->allowBeta = allowed;
     priv->settings->setValue("auto_beta", allowed);
     priv->settings->sync();
 }
 
-void PrismExternalUpdater::resetAutoCheckTimer() const
+void SpikyMCExternalUpdater::resetAutoCheckTimer() const
 {
     if (priv->autoCheck && priv->updateInterval > 0) {
         auto now = QDateTime::currentDateTime();
@@ -289,23 +289,23 @@ void PrismExternalUpdater::resetAutoCheckTimer() const
     }
 }
 
-void PrismExternalUpdater::connectTimer()
+void SpikyMCExternalUpdater::connectTimer()
 {
-    connect(&priv->updateTimer, &QTimer::timeout, this, &PrismExternalUpdater::autoCheckTimerFired);
+    connect(&priv->updateTimer, &QTimer::timeout, this, &SpikyMCExternalUpdater::autoCheckTimerFired);
 }
 
-void PrismExternalUpdater::disconnectTimer()
+void SpikyMCExternalUpdater::disconnectTimer()
 {
-    disconnect(&priv->updateTimer, &QTimer::timeout, this, &PrismExternalUpdater::autoCheckTimerFired);
+    disconnect(&priv->updateTimer, &QTimer::timeout, this, &SpikyMCExternalUpdater::autoCheckTimerFired);
 }
 
-void PrismExternalUpdater::autoCheckTimerFired() const
+void SpikyMCExternalUpdater::autoCheckTimerFired() const
 {
     qDebug() << "Auto update Timer fired";
     checkForUpdates(false);
 }
 
-void PrismExternalUpdater::offerUpdate(const QString& versionName,
+void SpikyMCExternalUpdater::offerUpdate(const QString& versionName,
                                        const QString& versionTag,
                                        const QString& releaseNotes,
                                        const bool triggeredByUser) const
@@ -343,7 +343,7 @@ void PrismExternalUpdater::offerUpdate(const QString& versionName,
     priv->settings->sync();
 }
 
-void PrismExternalUpdater::performUpdate(const QString& versionTag) const
+void SpikyMCExternalUpdater::performUpdate(const QString& versionTag) const
 {
     QProcess proc;
     auto exeName = QStringLiteral("%1_updater").arg(BuildConfig.LAUNCHER_APP_BINARY_NAME);

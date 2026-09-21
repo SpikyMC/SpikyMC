@@ -8,11 +8,11 @@
 
 <p align="center">
   SpikyMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once.<br />
-  <br />SpikyMC is a <b>fork</b> of <a href="https://prismlauncher.org">Prism Launcher</a>, which itself is a fork of <a href="https://multimc.org">MultiMC</a>. It is <b>not</b> endorsed by, affiliated with, or supported by the Prism Launcher or MultiMC projects.
+  <br />SpikyMC is a <b>fork</b> of <a href="https://mc.spiky.green">SpikyMC</a>, which itself is a fork of <a href="https://multimc.org">MultiMC</a>. It is <b>not</b> endorsed by, affiliated with, or supported by the SpikyMC or MultiMC projects.
 </p>
 
 > [!NOTE]
-> SpikyMC is an independent project. "Prism Launcher", its logo and branding are the property of their respective owners and are used here only for informational purposes to indicate the origin of the code.
+> SpikyMC is an independent project. "SpikyMC", its logo and branding are the property of their respective owners and are used here only for informational purposes to indicate the origin of the code.
 
 ## Installation
 
@@ -38,10 +38,10 @@ If you want to build SpikyMC yourself, check the [build instructions](https://ex
 
 SpikyMC is based on the code and ideas of the following projects:
 
-- **[Prism Launcher](https://prismlauncher.org)** — the launcher SpikyMC was forked from. Huge thanks to the Prism Launcher team and all contributors.
-- **[MultiMC](https://multimc.org)** — the original launcher from which Prism Launcher originated.
+- **[SpikyMC](https://mc.spiky.green)** — the launcher SpikyMC was forked from. Huge thanks to the SpikyMC team and all contributors.
+- **[MultiMC](https://multimc.org)** — the original launcher from which SpikyMC originated.
 
-We are grateful to the Prism Launcher community for their work.
+We are grateful to the SpikyMC community for their work.
 
 ## Forking/Redistributing/Custom builds policy
 

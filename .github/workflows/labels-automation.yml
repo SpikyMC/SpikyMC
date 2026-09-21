@@ -19,7 +19,7 @@ jobs:
   run-labels-script:
     name: Run script
     runs-on: ubuntu-slim
-    if: github.repository_owner == 'PrismLauncher'
+    if: github.repository_owner == 'SpikyMC'
 
     steps:
       - name: Generate token

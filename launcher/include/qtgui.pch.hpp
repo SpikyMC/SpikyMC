@@ -1,6 +1,6 @@
 #pragma once
-#ifndef PRISM_PRECOMPILED_QTGUI_HEADERS_H
-#define PRISM_PRECOMPILED_QTGUI_HEADERS_H
+#ifndef SPIKYMC_PRECOMPILED_QTGUI_HEADERS_H
+#define SPIKYMC_PRECOMPILED_QTGUI_HEADERS_H
 
 #include <QApplication>
 
@@ -44,4 +44,4 @@
 #include <QPixmap>
 #include <QPixmapCache>
 
-#endif  // PRISM_PRECOMPILED_GUI_HEADERS_H
+#endif  // SPIKYMC_PRECOMPILED_GUI_HEADERS_H

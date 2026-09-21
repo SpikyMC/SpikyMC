@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2023 Rachel Powers <508861+Ryex@users.noreply.github.com>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -40,17 +40,17 @@
 #include "QObjectPtr.h"
 #include "net/Request.h"
 
-#define PRISM_EXTERNAL_EXE
+#define SPIKYMC_EXTERNAL_EXE
 #include "FileSystem.h"
 
 #include "GitHubRelease.h"
 
-class PrismUpdaterApp : public QApplication {
+class SpikyMCUpdaterApp : public QApplication {
     Q_OBJECT
    public:
     enum Status { Starting, Failed, Succeeded, Initialized, Aborted };
-    PrismUpdaterApp(int& argc, char** argv);
-    virtual ~PrismUpdaterApp();
+    SpikyMCUpdaterApp(int& argc, char** argv);
+    virtual ~SpikyMCUpdaterApp();
     void loadReleaseList();
     void run();
     Status status() const { return m_status; }
@@ -60,7 +60,7 @@ class PrismUpdaterApp : public QApplication {
     void abort(const QString& reason);
     void showFatalErrorMessage(const QString& title, const QString& content);
 
-    bool loadPrismVersionFromExe(const QString& exe_path);
+    bool loadSpikyMCVersionFromExe(const QString& exe_path);
 
     void downloadReleasePage(const QString& api_url, int page);
     Result<int> parseReleasePage(const QByteArray* response);
@@ -104,8 +104,8 @@ class PrismUpdaterApp : public QApplication {
     bool m_isAppimage = false;
     bool m_isFlatpak = false;
     QString m_appimagePath;
-    QString m_prismExecutable;
-    QUrl m_prismRepoUrl;
+    QString m_spikymcExecutable;
+    QUrl m_spikymcRepoUrl;
     Version m_userSelectedVersion;
     bool m_checkOnly;
     bool m_forceUpdate;
@@ -116,13 +116,13 @@ class PrismUpdaterApp : public QApplication {
 
     QString m_updateLogPath;
 
-    QString m_prismBinaryName;
-    QString m_prismVersion;
-    int m_prismVersionMajor = -1;
-    int m_prismVersionMinor = -1;
-    int m_prismVersionPatch = -1;
-    QString m_prsimVersionChannel;
-    QString m_prismGitCommit;
+    QString m_spikymcBinaryName;
+    QString m_spikymcVersion;
+    int m_spikymcVersionMajor = -1;
+    int m_spikymcVersionMinor = -1;
+    int m_spikymcVersionPatch = -1;
+    QString m_spikymcVersionChannel;
+    QString m_spikymcGitCommit;
 
     GitHubRelease m_install_release;
 

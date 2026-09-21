@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: GPL-3.0-only AND Apache-2.0
 
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2022-2023 Sefa Eyeoglu <contact@scrumplex.net>
  *  Copyright (C) 2022 TheKodeToad <TheKodeToad@proton.me>
  *
@@ -335,7 +335,7 @@ Result<> PackProfile::reload(Net::Mode netmode)
             return {};
         }
 
-        // https://github.com/PrismLauncher/PrismLauncher/issues/5209
+        // https://github.com/SpikyMC/SpikyMC/issues/5209
         // FIXME: HACK HACK HACK
         disconnect(d->m_updateTask.get(), &ComponentUpdateTask::aborted, nullptr, nullptr);
         d->m_updateTask->abort();

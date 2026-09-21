@@ -5,18 +5,18 @@ body:
 - type: markdown
   attributes:
     value: |
-      ### Use this form to suggest a feature for Prism Launcher.
+      ### Use this form to suggest a feature for SpikyMC.
 - type: input
   attributes:
     label: Suggestion
-    description: What do you want Prism Launcher to do?
+    description: What do you want SpikyMC to do?
     placeholder: I want the cat button to meow.
   validations:
     required: true
 - type: input
   attributes:
     label: Benefit
-    description: Why do you need Prism Launcher to do this?
+    description: Why do you need SpikyMC to do this?
     placeholder: so that I can always hear a cat when I need to.
   validations:
     required: true

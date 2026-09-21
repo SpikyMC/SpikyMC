@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (c) 2022 flowln <flowlnlnln@gmail.com>
  *  Copyright (c) 2023 Trial97 <alexandru.tripon97@gmail.com>
  *
@@ -223,12 +223,12 @@ void V1::updateModIndex(const QDir& indexDir, Mod& mod)
         auto tbl = toml::table{ { "name", mod.name.toStdString() },
                                 { "filename", mod.filename.toStdString() },
                                 { "side", mod.side.toString().toStdString() },
-                                { "x-prismlauncher-loaders", loaders },
-                                { "x-prismlauncher-mc-versions", mcVersions },
-                                { "x-prismlauncher-release-type", mod.releaseType.toString().toStdString() },
-                                { "x-prismlauncher-version-number", mod.versionNumber.toStdString() },
-                                { "x-prismlauncher-dependencies", deps },
-                                { "x-prismlauncher-lock-update", mod.lockUpdate },
+                                { "x-spikymc-loaders", loaders },
+                                { "x-spikymc-mc-versions", mcVersions },
+                                { "x-spikymc-release-type", mod.releaseType.toString().toStdString() },
+                                { "x-spikymc-version-number", mod.versionNumber.toStdString() },
+                                { "x-spikymc-dependencies", deps },
+                                { "x-spikymc-lock-update", mod.lockUpdate },
                                 { "download",
                                   toml::table{
                                       { "mode", mod.mode.toStdString() },
@@ -303,16 +303,16 @@ auto V1::getIndexForMod(const QDir& indexDir, const QString& slug) -> Mod
         mod.name = stringEntry(table, "name");
         mod.filename = stringEntry(table, "filename");
         mod.side = ModPlatform::SideType::fromString(stringEntry(table, "side"));
-        mod.releaseType = ModPlatform::IndexedVersionType::fromString(table["x-prismlauncher-release-type"].value_or(""));
-        mod.lockUpdate = table["x-prismlauncher-lock-update"].value_or(false);
-        if (auto loaders = table["x-prismlauncher-loaders"]; loaders && loaders.is_array()) {
+        mod.releaseType = ModPlatform::IndexedVersionType::fromString(table["x-spikymc-release-type"].value_or(""));
+        mod.lockUpdate = table["x-spikymc-lock-update"].value_or(false);
+        if (auto loaders = table["x-spikymc-loaders"]; loaders && loaders.is_array()) {
             for (auto&& loader : *loaders.as_array()) {
                 if (loader.is_string()) {
                     mod.loaders |= ModPlatform::getModLoaderFromString(QString::fromStdString(loader.as_string()->value_or("")));
                 }
             }
         }
-        if (auto versions = table["x-prismlauncher-mc-versions"]; versions && versions.is_array()) {
+        if (auto versions = table["x-spikymc-mc-versions"]; versions && versions.is_array()) {
             for (auto&& version : *versions.as_array()) {
                 if (version.is_string()) {
                     auto ver = QString::fromStdString(version.as_string()->value_or(""));
@@ -325,7 +325,7 @@ auto V1::getIndexForMod(const QDir& indexDir, const QString& slug) -> Mod
             std::ranges::sort(mod.mcVersions, sortMCVersions);
         }
     }
-    mod.versionNumber = table["x-prismlauncher-version-number"].value_or("");
+    mod.versionNumber = table["x-spikymc-version-number"].value_or("");
 
     {  // [download] info
         auto* downloadTable = table["download"].as_table();
@@ -367,7 +367,7 @@ auto V1::getIndexForMod(const QDir& indexDir, const QString& slug) -> Mod
         }
     }
     {  // dependencies
-        auto* deps = table["x-prismlauncher-dependencies"].as_array();
+        auto* deps = table["x-spikymc-dependencies"].as_array();
         if (deps) {
             for (auto&& depNode : *deps) {
                 auto* dep = depNode.as_table();

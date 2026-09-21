@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2022 Sefa Eyeoglu <contact@scrumplex.net>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -65,19 +65,19 @@ class VersionFile : public ProblemContainer {
     void applyTo(LaunchProfile* profile, const RuntimeContext& runtimeContext);
 
    public: /* data */
-    /// Prism Launcher: order hint for this version file if no explicit order is set
+    /// SpikyMC: order hint for this version file if no explicit order is set
     int order = 0;
 
-    /// Prism Launcher: human readable name of this package
+    /// SpikyMC: human readable name of this package
     QString name;
 
-    /// Prism Launcher: package ID of this package
+    /// SpikyMC: package ID of this package
     QString uid;
 
-    /// Prism Launcher: version of this package
+    /// SpikyMC: version of this package
     QString version;
 
-    /// Prism Launcher: DEPRECATED dependency on a Minecraft version
+    /// SpikyMC: DEPRECATED dependency on a Minecraft version
     QString dependsOnMinecraftVersion;
 
     /// Mojang: DEPRECATED used to version the Mojang version format
@@ -89,13 +89,13 @@ class VersionFile : public ProblemContainer {
     /// Mojang: class to launch Minecraft with
     QString mainClass;
 
-    /// Prism Launcher: class to launch legacy Minecraft with (embed in a custom window)
+    /// SpikyMC: class to launch legacy Minecraft with (embed in a custom window)
     QString appletClass;
 
     /// Mojang: Minecraft launch arguments (may contain placeholders for variable substitution)
     QString minecraftArguments;
 
-    /// Prism Launcher: Additional JVM launch arguments
+    /// SpikyMC: Additional JVM launch arguments
     QStringList addnJvmArguments;
 
     /// Mojang: list of compatible java majors
@@ -116,38 +116,38 @@ class VersionFile : public ProblemContainer {
     /// Mojang: DEPRECATED asset group to be used with Minecraft
     QString assets;
 
-    /// Prism Launcher: list of tweaker mod arguments for launchwrapper
+    /// SpikyMC: list of tweaker mod arguments for launchwrapper
     QStringList addTweakers;
 
     /// Mojang: list of libraries to add to the version
     QList<LibraryPtr> libraries;
 
-    /// Prism Launcher: list of maven files to put in the libraries folder, but not in classpath
+    /// SpikyMC: list of maven files to put in the libraries folder, but not in classpath
     QList<LibraryPtr> mavenFiles;
 
-    /// Prism Launcher: list of agents to add to JVM arguments
+    /// SpikyMC: list of agents to add to JVM arguments
     QList<Agent> agents;
 
     /// The main jar (Minecraft version library, normally)
     LibraryPtr mainJar;
 
-    /// Prism Launcher: list of attached traits of this version file - used to enable features
+    /// SpikyMC: list of attached traits of this version file - used to enable features
     QSet<QString> traits;
 
-    /// Prism Launcher: list of jar mods added to this version
+    /// SpikyMC: list of jar mods added to this version
     QList<LibraryPtr> jarMods;
 
-    /// Prism Launcher: list of mods added to this version
+    /// SpikyMC: list of mods added to this version
     QList<LibraryPtr> mods;
 
     /**
-     * Prism Launcher: set of packages this depends on
+     * SpikyMC: set of packages this depends on
      * NOTE: this is shared with the meta format!!!
      */
     Meta::RequireSet m_requires;
 
     /**
-     * Prism Launcher: set of packages this conflicts with
+     * SpikyMC: set of packages this conflicts with
      * NOTE: this is shared with the meta format!!!
      */
     Meta::RequireSet conflicts;

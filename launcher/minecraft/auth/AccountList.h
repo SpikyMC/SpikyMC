@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2022 Sefa Eyeoglu <contact@scrumplex.net>
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -46,7 +46,7 @@
 
 /*!
  * List of available Mojang accounts.
- * This should be loaded in the background by Prism Launcher on startup.
+ * This should be loaded in the background by SpikyMC on startup.
  */
 class AccountList : public QAbstractListModel {
     Q_OBJECT

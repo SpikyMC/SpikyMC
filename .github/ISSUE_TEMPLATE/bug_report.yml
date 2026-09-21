@@ -5,12 +5,12 @@ body:
 - type: markdown
   attributes:
     value: |
-      If you need help with running Minecraft, please visit us on [our Discord](https://prismlauncher.org/discord) before making a bug report.
+      If you need help with running Minecraft, please visit us on [our Discord](https://mc.spiky.green/discord) before making a bug report.
 
       Before submitting a bug report, please make sure you have read this *entire* form, and that:
-      * You have read the [Prism Launcher wiki](https://prismlauncher.org/wiki/) and it has not answered your question.
+      * You have read the [SpikyMC wiki](https://mc.spiky.green/wiki/) and it has not answered your question.
       * Your bug is not caused by Minecraft or any mods you have installed.
-      * Your issue has not been reported before, [make sure to use the search function!](https://github.com/PrismLauncher/PrismLauncher/issues)
+      * Your issue has not been reported before, [make sure to use the search function!](https://github.com/SpikyMC/SpikyMC/issues)
 
       **Do not forget to give your issue a descriptive title.** "Bug in the instance screen" makes it hard to distinguish issues at a glance.
 - type: dropdown
@@ -25,15 +25,15 @@ body:
     - Other
 - type: input
   attributes:
-    label: Version of Prism Launcher
-    description: The version of Prism Launcher used in the bug report.
-    placeholder: Prism Launcher 5.0
+    label: Version of SpikyMC
+    description: The version of SpikyMC used in the bug report.
+    placeholder: SpikyMC 5.0
   validations:
     required: true
 - type: input
   attributes:
     label: Version of Qt
-    description: The version of Qt used in the bug report. You can find it in Help -> About Prism Launcher -> About Qt.
+    description: The version of Qt used in the bug report. You can find it in Help -> About SpikyMC -> About Qt.
     placeholder: Qt 6.3.0
   validations:
     required: true

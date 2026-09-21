@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only AND Apache-2.0
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (c) 2024 TheKodeToad <TheKodeToad@proton.me>
  *  Copyright (C) 2026 Octol1ttle <l1ttleofficial@outlook.com>
  *  Copyright (C) 2026 Trial97 <alexandru.tripon97@gmail.com>

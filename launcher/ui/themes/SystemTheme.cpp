@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (C) 2024 Tayou <git@tayou.org>
  *  Copyright (C) 2024 TheKodeToad <TheKodeToad@proton.me>
  *
@@ -41,7 +41,7 @@
 #include "ThemeManager.h"
 
 // See https://github.com/MultiMC/Launcher/issues/1790
-// or https://github.com/PrismLauncher/PrismLauncher/issues/490
+// or https://github.com/SpikyMC/SpikyMC/issues/490
 static const QStringList S_NATIVE_STYLES{ "windows11", "windowsvista", "macos", "system", "windows" };
 
 SystemTheme::SystemTheme(const QString& styleName, const QPalette& defaultPalette, bool isDefaultTheme)

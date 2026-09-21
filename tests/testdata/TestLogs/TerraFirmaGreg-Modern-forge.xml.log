@@ -6,7 +6,7 @@ Checking: MOJMAPS
 Checking: PATCHED
 Checking: MC_SRG
   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1745005464389" level="INFO" thread="main">
-    <log4j:Message><![CDATA[ModLauncher running: args [--username, Ryexandrite, --version, 1.20.1, --gameDir, /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]]]></log4j:Message>
+    <log4j:Message><![CDATA[ModLauncher running: args [--username, Ryexandrite, --version, 1.20.1, --gameDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1745005464393" level="INFO" thread="main">
     <log4j:Message><![CDATA[ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Linux arch amd64 version 6.6.85]]></log4j:Message>
@@ -21,469 +21,469 @@ Checking: MC_SRG
     <log4j:Message><![CDATA[Requested GL version 4.6 got version 4.6]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="mixin" timestamp="1745005466058" level="INFO" thread="main">
-    <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23140!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
+    <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23140!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="EARLYDISPLAY" timestamp="1745005466087" level="INFO" thread="pool-2-thread-1">
     <log4j:Message><![CDATA[GL info: AMD Radeon RX 5700 XT (radeonsi, navi10, LLVM 19.1.7, DRM 3.54, 6.6.85) GL version 4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f), AMD]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file AdditionalPlacements-1.20-1.8.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file AdditionalPlacements-1.20-1.8.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ae2insertexportcard-1.20.1-1.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ae2insertexportcard-1.20.1-1.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file AE2NetworkAnalyzer-1.20-1.0.6-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file AE2NetworkAnalyzer-1.20-1.0.6-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ae2wtlib-15.2.3-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ae2wtlib-15.2.3-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file AI-Improvements-1.20-0.5.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file AI-Improvements-1.20-0.5.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file AmbientSounds_FORGE_v6.1.1_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file AmbientSounds_FORGE_v6.1.1_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file appliedenergistics2-forge-15.2.13.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file appliedenergistics2-forge-15.2.13.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466325" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file architectury-9.2.14-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file astikorcarts-1.20.1-1.1.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file astikorcarts-1.20.1-1.1.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file AttributeFix-Forge-1.20.1-21.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file AttributeFix-Forge-1.20.1-21.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file balm-forge-1.20.1-7.3.9-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file balm-forge-1.20.1-7.3.9-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file barrels_2012-2.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file barrels_2012-2.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file BetterF3-7.0.2-Forge-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file BetterF3-7.0.2-Forge-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file betterfoliage-5.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file betterfoliage-5.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file BetterPingDisplay-1.20.1-1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file BetterPingDisplay-1.20.1-1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466326" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file BetterThirdPerson-Forge-1.20-1.9.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file BetterThirdPerson-Forge-1.20-1.9.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file blur-forge-3.1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file blur-forge-3.1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file carpeted-1.20-1.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file carpeted-1.20-1.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file carryon-forge-1.20.1-2.1.2.7.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file carryon-forge-1.20.1-2.1.2.7.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file catalogue-forge-1.20.1-1.8.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file catalogue-forge-1.20.1-1.8.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file cc-tweaked-1.20.1-forge-1.113.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file cc-tweaked-1.20.1-forge-1.113.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file chat_heads-0.13.9-forge-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file chat_heads-0.13.9-forge-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file cherishedworlds-forge-6.1.7+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file cherishedworlds-forge-6.1.7+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file clienttweaks-forge-1.20-11.1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file clienttweaks-forge-1.20-11.1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466327" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file cloth-config-11.1.136-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file cloth-config-11.1.136-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Clumps-forge-1.20.1-12.0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Clumps-forge-1.20.1-12.0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Controlling-forge-1.20.1-12.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Controlling-forge-1.20.1-12.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file corals-tfc-1.0.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file corals-tfc-1.0.0-forge-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file corpse-forge-1.20.1-1.0.19.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file corpse-forge-1.20.1-1.0.19.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file cosmeticarmorreworked-1.20.1-v1a.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file cosmeticarmorreworked-1.20.1-v1a.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file craftingtweaks-forge-1.20.1-18.2.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file craftingtweaks-forge-1.20.1-18.2.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file CraftPresence-2.5.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file CraftPresence-2.5.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file create-1.20.1-0.5.1.f.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file create-1.20.1-0.5.1.f.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466328" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file create_connected-0.8.2-mc1.20.1-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file create_connected-0.8.2-mc1.20.1-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file createaddition-1.20.1-1.2.4c.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file createaddition-1.20.1-1.2.4c.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file CreativeCore_FORGE_v2.12.15_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file CreativeCore_FORGE_v2.12.15_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Cucumber-1.20.1-7.0.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Cucumber-1.20.1-7.0.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file cupboard-1.20.1-2.7.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file cupboard-1.20.1-2.7.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file curios-forge-5.10.0+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file curios-forge-5.10.0+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file defaultoptions-forge-1.20-18.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file defaultoptions-forge-1.20-18.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file do_a_barrel_roll-forge-3.5.6+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file do_a_barrel_roll-forge-3.5.6+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file drippyloadingscreen_forge_3.0.1_MC_1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file drippyloadingscreen_forge_3.0.1_MC_1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466329" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file dynamiclightsreforged-1.20.1_v1.6.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file dynamiclightsreforged-1.20.1_v1.6.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466330" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file embeddium-0.3.19+mc1.20.1-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file embeddium-0.3.19+mc1.20.1-all.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466330" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file embeddiumplus-1.20.1-v1.2.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file embeddiumplus-1.20.1-v1.2.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466330" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file emi-1.1.7+1.20.1+forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file emi-1.1.7+1.20.1+forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466330" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466330" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file etched-3.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file etched-3.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file everycomp-1.20-2.7.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file everycomp-1.20-2.7.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file exposure-1.20.1-1.7.7-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file exposure-1.20.1-1.7.7-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ExtendedAE-1.20-1.1.14-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ExtendedAE-1.20-1.1.14-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file fallingtrees-forge-0.12.7-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file fallingtrees-forge-0.12.7-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file fancymenu_forge_3.2.3_MC_1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file fancymenu_forge_3.2.3_MC_1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ferritecore-6.0.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file FirmaCivilization-0.2.10-alpha-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file FirmaCivilization-0.2.10-alpha-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466331" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Firmalife-1.20.1-2.1.15.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Firmalife-1.20.1-2.1.15.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file firstperson-forge-2.4.5-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file firstperson-forge-2.4.5-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file flickerfix-1.20.1-4.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file flickerfix-1.20.1-4.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file FpsReducer2-forge-1.20-2.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file FpsReducer2-forge-1.20-2.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file FramedBlocks-9.3.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file FramedBlocks-9.3.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-essentials-forge-2001.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-essentials-forge-2001.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-filter-system-forge-1.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-filter-system-forge-1.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-library-forge-2001.2.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-library-forge-2001.2.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-quests-forge-2001.4.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-quests-forge-2001.4.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466332" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-ranks-forge-2001.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-ranks-forge-2001.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-teams-forge-2001.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-teams-forge-2001.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftb-xmod-compat-forge-2.1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftb-xmod-compat-forge-2.1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ftbbackups2-forge-1.20-1.0.23.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ftbbackups2-forge-1.20-1.0.23.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file gcyr-1.20.1-0.1.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file gcyr-1.20.1-0.1.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file getittogetherdrops-forge-1.20-1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file getittogetherdrops-forge-1.20-1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Glodium-1.20-1.5-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Glodium-1.20-1.5-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file gtceu-1.20.1-1.2.3.a.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file gtceu-1.20.1-1.2.3.a.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466333" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file HangGlider-v8.0.1-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file HangGlider-v8.0.1-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ImmediatelyFast-Forge-1.2.18+1.20.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ImmediatelyFast-Forge-1.2.18+1.20.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file inventoryhud.forge.1.20.1-3.4.26.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file inventoryhud.forge.1.20.1-3.4.26.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file invtweaks-1.20.1-1.1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file invtweaks-1.20.1-1.1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ItemPhysicLite_FORGE_v1.6.5_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ItemPhysicLite_FORGE_v1.6.5_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Jade-1.20.1-forge-11.9.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Jade-1.20.1-forge-11.9.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file JadeAddons-1.20.1-forge-5.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file JadeAddons-1.20.1-forge-5.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file jei-1.20.1-forge-15.3.0.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file jei-1.20.1-forge-15.3.0.8.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file konkrete_forge_1.8.0_MC_1.20-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file konkrete_forge_1.8.0_MC_1.20-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466334" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Ksyxis-1.3.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Ksyxis-1.3.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file kubejs-create-forge-2001.2.5-build.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file kubejs-create-forge-2001.2.5-build.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file kubejs-forge-2001.6.5-build.14.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file kubejs-forge-2001.6.5-build.14.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file kubejs_tfc-1.20.1-1.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file kubejs_tfc-1.20.1-1.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file letmedespawn-forge-1.3.2b.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file letmedespawn-forge-1.3.2b.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file lootjs-forge-1.20.1-2.12.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file lootjs-forge-1.20.1-2.12.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file megacells-forge-2.4.4-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file megacells-forge-2.4.4-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file melody_forge_1.0.3_MC_1.20.1-1.20.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file melody_forge_1.0.3_MC_1.20.1-1.20.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file memoryleakfix-forge-1.17+-1.1.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file memoryleakfix-forge-1.17+-1.1.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466335" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file merequester-forge-1.20.1-1.1.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file merequester-forge-1.20.1-1.1.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file modelfix-1.15.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file modelfix-1.15.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file modernfix-forge-5.18.1+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file modernfix-forge-5.18.1+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file moonlight-1.20-2.13.51-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file moonlight-1.20-2.13.51-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file morered-1.20.1-4.0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file morered-1.20.1-4.0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file MouseTweaks-forge-mc1.20.1-2.25.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file MouseTweaks-forge-mc1.20.1-2.25.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file MyServerIsCompatible-1.20-1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file MyServerIsCompatible-1.20-1.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file nanhealthfixer-1.20.1-0.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file nanhealthfixer-1.20.1-0.0.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file no-report-button-forge-1.5.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file no-report-button-forge-1.5.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file noisium-forge-2.3.0+mc1.20-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file noisium-forge-2.3.0+mc1.20-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466336" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file notenoughanimations-forge-1.7.6-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file notenoughanimations-forge-1.7.6-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file OctoLib-FORGE-0.4.2+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file OctoLib-FORGE-0.4.2+1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file oculus-mc1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file oculus-mc1.20.1-1.7.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file open-parties-and-claims-forge-1.20.1-0.23.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file open-parties-and-claims-forge-1.20.1-0.23.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file packetfixer-forge-1.4.2-1.19-to-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file packetfixer-forge-1.4.2-1.19-to-1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file pandalib-forge-0.4.2-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file pandalib-forge-0.4.2-1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Patchouli-1.20.1-84-FORGE.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Patchouli-1.20.1-84-FORGE.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file PickUpNotifier-v8.0.0-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file PickUpNotifier-v8.0.0-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Placebo-1.20.1-8.6.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Placebo-1.20.1-8.6.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466337" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file polylib-forge-2000.0.3-build.143.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file polylib-forge-2000.0.3-build.143.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file PuzzlesLib-v8.1.23-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file PuzzlesLib-v8.1.23-1.20.1-Forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file radium-mc1.20.1-0.12.3+git.50c5c33.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file radium-mc1.20.1-0.12.3+git.50c5c33.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file recipeessentials-1.20.1-3.6.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file recipeessentials-1.20.1-3.6.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file rhino-forge-2001.2.2-build.18.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file saturn-mc1.20.1-0.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file saturn-mc1.20.1-0.1.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Searchables-forge-1.20.1-1.0.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Searchables-forge-1.20.1-1.0.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Shimmer-forge-1.20.1-0.2.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Shimmer-forge-1.20.1-0.2.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file showcaseitem-1.20.1-1.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file showcaseitem-1.20.1-1.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file simplylight-1.20.1-1.4.6-build.50.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file simplylight-1.20.1-1.4.6-build.50.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466338" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file smoothboot(reloaded)-mc1.20.1-0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file smoothboot(reloaded)-mc1.20.1-0.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file sophisticatedbackpacks-1.20.1-3.20.5.1044.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file sophisticatedbackpacks-1.20.1-3.20.5.1044.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file sophisticatedcore-1.20.1-0.6.22.611.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file sophisticatedcore-1.20.1-0.6.22.611.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Steam_Rails-1.6.4+forge-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Steam_Rails-1.6.4+forge-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file supermartijn642configlib-1.1.8-forge-mc1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file supermartijn642configlib-1.1.8-forge-mc1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file supermartijn642corelib-1.1.17-forge-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file supermartijn642corelib-1.1.17-forge-mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TerraFirmaCraft-Forge-1.20.1-3.2.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TerraFirmaCraft-Forge-1.20.1-3.2.12.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TerraFirmaGreg-Core-1.20.1-0.5.9.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TerraFirmaGreg-Core-1.20.1-0.5.9.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TFCAgedAlcohol-1.20.1-2.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TFCAgedAlcohol-1.20.1-2.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file tfcambiental-1.20.1-3.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file tfcambiental-1.20.1-3.3.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TFCAstikorCarts-1.20.1-1.1.8.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TFCAstikorCarts-1.20.1-1.1.8.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file tfcchannelcasting-0.2.3-beta.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file tfcchannelcasting-0.2.3-beta.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file tfcea-0.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file tfcea-0.0.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466339" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file tfcgroomer-1.20.1-0.1.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file tfcgroomer-1.20.1-0.1.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TFCHotOrNot-1.20.1-1.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TFCHotOrNot-1.20.1-1.0.4.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TFCTumbleweed-1.20.1-1.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TFCTumbleweed-1.20.1-1.2.2.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file TFCVesselTooltip-1.20.1-1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file TFCVesselTooltip-1.20.1-1.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file toofast-1.20-0.4.3.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file toofast-1.20-0.4.3.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file ToolBelt-1.20.1-1.20.01.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file ToolBelt-1.20.1-1.20.01.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file treetap-1.20.1-0.4.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file treetap-1.20.1-0.4.0.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Tumbleweed-forge-1.20.1-0.5.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Tumbleweed-forge-1.20.1-0.5.5.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file u_team_core-forge-1.20.1-5.1.4.312.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file u_team_core-forge-1.20.1-5.1.4.312.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file UniLib-1.0.2+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file UniLib-1.0.2+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file waterflasks-3.0.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file waterflasks-3.0.3.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file Xaeros_Minimap_24.4.0_Forge_1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file Xaeros_Minimap_24.4.0_Forge_1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file XaerosWorldMap_1.39.0_Forge_1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file XaerosWorldMap_1.39.0_Forge_1.20.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466340" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Found mod file YetAnotherConfigLib-3.5.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
+    <log4j:Message><![CDATA[Found mod file YetAnotherConfigLib-3.5.0+1.20.1-forge.jar of type MOD with provider {mods folder locator at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/mods}]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModFileParser" timestamp="1745005466426" level="WARN" thread="main">
-    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.6/fmlcore-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
+    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.6/fmlcore-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModFileParser" timestamp="1745005466427" level="WARN" thread="main">
-    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.6/javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
+    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.6/javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModFileParser" timestamp="1745005466427" level="WARN" thread="main">
-    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.6/lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
+    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.6/lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModFileParser" timestamp="1745005466428" level="WARN" thread="main">
-    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.6/mclanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
+    <log4j:Message><![CDATA[Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.6/mclanguage-1.20.1-47.2.6.jar is missing mods.toml file]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer" timestamp="1745005466439" level="INFO" thread="main">
     <log4j:Message><![CDATA[Found mod file fmlcore-1.20.1-47.2.6.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@6e8a9c30]]></log4j:Message>
@@ -609,7 +609,7 @@ Checking: MC_SRG
     <log4j:Message><![CDATA[Mixin config yacl.mixins.json does not specify "minVersion" property]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="cpw.mods.modlauncher.LaunchServiceHandler" timestamp="1745005469320" level="INFO" thread="main">
-    <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/assets, --uuid, <PROFILE ID>, --username, Ryexandrite, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]]]></log4j:Message>
+    <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/assets, --uuid, <PROFILE ID>, --username, Ryexandrite, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="com.abdelaziz.saturn.common.Saturn" timestamp="1745005469355" level="INFO" thread="main">
     <log4j:Message><![CDATA[Loaded Saturn config file with 4 configurable options]]></log4j:Message>
@@ -1073,10 +1073,10 @@ Checking: MC_SRG
     <log4j:Message><![CDATA[Registering content]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraft.server.packs.VanillaPackResourcesBuilder" timestamp="1745005476217" level="WARN" thread="Render thread">
-    <log4j:Message><![CDATA[Assets URL 'union:/home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/assets/.mcassetsroot' uses unexpected schema]]></log4j:Message>
+    <log4j:Message><![CDATA[Assets URL 'union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/assets/.mcassetsroot' uses unexpected schema]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.minecraft.server.packs.VanillaPackResourcesBuilder" timestamp="1745005476217" level="WARN" thread="Render thread">
-    <log4j:Message><![CDATA[Assets URL 'union:/home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/data/.mcassetsroot' uses unexpected schema]]></log4j:Message>
+    <log4j:Message><![CDATA[Assets URL 'union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/data/.mcassetsroot' uses unexpected schema]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService" timestamp="1745005476230" level="INFO" thread="Render thread">
     <log4j:Message><![CDATA[Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD']]></log4j:Message>
@@ -1696,13 +1696,13 @@ Checking: MC_SRG
     <log4j:Message><![CDATA[Initialised block entities.]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="showcaseitem" timestamp="1745005478596" level="INFO" thread="modloading-worker-0">
-    <log4j:Message><![CDATA[Loading config: /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
+    <log4j:Message><![CDATA[Loading config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="showcaseitem" timestamp="1745005478596" level="INFO" thread="modloading-worker-0">
-    <log4j:Message><![CDATA[Built config: /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
+    <log4j:Message><![CDATA[Built config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="showcaseitem" timestamp="1745005478596" level="INFO" thread="modloading-worker-0">
-    <log4j:Message><![CDATA[Loaded config: /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
+    <log4j:Message><![CDATA[Loaded config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="me.treyruffy.betterf3.BetterF3Forge" timestamp="1745005478616" level="INFO" thread="modloading-worker-0">
     <log4j:Message><![CDATA[[BetterF3] Starting...]]></log4j:Message>
@@ -1714,7 +1714,7 @@ Checking: MC_SRG
     <log4j:Message><![CDATA[Packet Fixer has been initialized successfully]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="YetAnotherConfigLib" timestamp="1745005478639" level="INFO" thread="modloading-worker-0">
-    <log4j:Message><![CDATA[Deserializing YACLConfig from '/home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/config/yacl.json5']]></log4j:Message>
+    <log4j:Message><![CDATA[Deserializing YACLConfig from '/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/yacl.json5']]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="Puzzles Lib" timestamp="1745005478639" level="INFO" thread="modloading-worker-0">
     <log4j:Message><![CDATA[Constructing common components for puzzleslib:main]]></log4j:Message>
@@ -2122,7 +2122,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
     <log4j:Message><![CDATA[Found unifont_all_no_pua-15.0.06.hex, loading]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="net.creeperhost.ftbbackups.FTBBackups" timestamp="1745005488164" level="INFO" thread="FTB Backups Config Watcher 0">
-    <log4j:Message><![CDATA[Config at /home/ryex/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/TerraFirmaGreg-Modern/minecraft/config/ftbbackups2.json has changed, reloaded!]]></log4j:Message>
+    <log4j:Message><![CDATA[Config at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/ftbbackups2.json has changed, reloaded!]]></log4j:Message>
   </log4j:Event>
   <log4j:Event logger="de.keksuccino.fancymenu.customization.layer.ScreenCustomizationLayerHandler" timestamp="1745005488221" level="INFO" thread="Render thread">
     <log4j:Message><![CDATA[[FANCYMENU] ScreenCustomizationLayer registered: pause_screen]]></log4j:Message>

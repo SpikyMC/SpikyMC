@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 /*
- *  Prism Launcher - Minecraft Launcher
+ *  SpikyMC - Minecraft Launcher
  *  Copyright (c) 2023-2025 Trial97 <alexandru.tripon97@gmail.com>
  *  Copyright (c) 2025 Rinth, Inc.
  *
@@ -56,7 +56,7 @@ static QImage improveSkin(QImage skin)
         return skin;
     }
     // It seems some older skins may use this format, which can't be drawn onto
-    // https://github.com/PrismLauncher/PrismLauncher/issues/4032
+    // https://github.com/SpikyMC/SpikyMC/issues/4032
     // https://doc.qt.io/qt-6/qpainter.html#begin
     if (skin.format() <= QImage::Format_Indexed8 || !skin.hasAlphaChannel()) {
         skin = skin.convertToFormat(QImage::Format_ARGB32);

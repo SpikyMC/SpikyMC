@@ -1,4 +1,4 @@
-[Desktop Entry]
+﻿[Desktop Entry]
 Version=1.0
 Name=@Launcher_DisplayName@
 Comment=Discover, manage, and play Minecraft instances
@@ -10,4 +10,4 @@ Icon=@Launcher_AppID@
 Categories=Game;ActionGame;AdventureGame;Simulation;PackageManager;
 Keywords=game;minecraft;mc;
 StartupWMClass=@Launcher_CommonName@
-MimeType=application/zip;application/x-modrinth-modpack+zip;x-scheme-handler/curseforge;x-scheme-handler/prismlauncher;x-scheme-handler/@Launcher_APP_BINARY_NAME@;
+MimeType=application/zip;application/x-modrinth-modpack+zip;x-scheme-handler/curseforge;x-scheme-handler/spikymc;x-scheme-handler/@Launcher_APP_BINARY_NAME@;

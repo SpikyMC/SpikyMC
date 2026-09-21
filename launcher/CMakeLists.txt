@@ -182,15 +182,6 @@ set(SPIKYMC_UPDATE_SOURCES
     updater/SpikyMCExternalUpdater.cpp
 )
 
-# Backend for the news bar... there's usually no news.
-set(NEWS_SOURCES
-    # News System
-    news/NewsChecker.h
-    news/NewsChecker.cpp
-    news/NewsEntry.h
-    news/NewsEntry.cpp
-)
-
 # Icon interface
 set(ICONS_SOURCES
     # Icons System and related code
@@ -745,7 +736,6 @@ set(LOGIC_SOURCES
     ${NET_SOURCES}
     ${LAUNCH_SOURCES}
     ${UPDATE_SOURCES}
-    ${NEWS_SOURCES}
     ${MINECRAFT_SOURCES}
     ${SCREENSHOTS_SOURCES}
     ${TASKS_SOURCES}
@@ -1056,8 +1046,6 @@ SET(LAUNCHER_SOURCES
     ui/dialogs/NewComponentDialog.h
     ui/dialogs/NewInstanceDialog.cpp
     ui/dialogs/NewInstanceDialog.h
-    ui/dialogs/NewsDialog.cpp
-    ui/dialogs/NewsDialog.h
     ui/pagedialog/PageDialog.cpp
     ui/pagedialog/PageDialog.h
     ui/dialogs/ProgressDialog.cpp

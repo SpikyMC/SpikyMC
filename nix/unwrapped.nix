@@ -119,7 +119,7 @@ stdenv.mkDerivation {
       their own mods, texture packs, saves, etc) and helps you manage them and
       their associated options with a simple interface.
     '';
-    homepage = "https://mc.spiky.green/";
+    homepage = "https://github.com/SpikyMC/SpikyMC";
     license = lib.licenses.gpl3Only;
     maintainers = with lib.maintainers; [
       Scrumplex

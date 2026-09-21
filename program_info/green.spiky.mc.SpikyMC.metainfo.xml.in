@@ -24,50 +24,13 @@
       <li>And cat :3</li>
     </ul>
   </description>
-  <screenshots>
-    <screenshot type="default">
-      <caption>The main SpikyMC window</caption>
-      <image type="source" width="1030" height="764">https://mc.spiky.green/img/screenshots/LauncherDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Modpack installation</caption>
-      <image type="source" width="1126" height="850">https://mc.spiky.green/img/screenshots/ModpackInstallDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Modpack updating</caption>
-      <image type="source" width="930" height="677">https://mc.spiky.green/img/screenshots/ModpackUpdateDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Mod installation</caption>
-      <image type="source" width="848" height="558">https://mc.spiky.green/img/screenshots/ModInstallDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Mod updating</caption>
-      <image type="source" width="860" height="748">https://mc.spiky.green/img/screenshots/ModUpdateDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Instance management</caption>
-      <image type="source" width="960" height="659">https://mc.spiky.green/img/screenshots/PropertiesDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Cat :3</caption>
-      <image type="source" width="1042" height="754">https://mc.spiky.green/img/screenshots/LauncherCatDark.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Customization</caption>
-      <image type="source" width="1040" height="752">https://mc.spiky.green/img/screenshots/CustomizeDark.png</image>
-    </screenshot>
-  </screenshots>
   <releases>
     <release version="@Launcher_VERSION_NAME@" date="@Launcher_BUILD_TIMESTAMP@"></release>
   </releases>
-  <url type="homepage">https://mc.spiky.green/</url>
+  <url type="homepage">https://github.com/SpikyMC/SpikyMC</url>
   <url type="bugtracker">https://github.com/SpikyMC/SpikyMC/issues</url>
-  <url type="faq">https://mc.spiky.green/wiki/overview/faq/</url>
-  <url type="help">https://mc.spiky.green/wiki/</url>
   <url type="donation">https://opencollective.com/spikymc</url>
-  <url type="translate">https://hosted.weblate.org/projects/spikymc/launcher</url>
-  <url type="contact">https://mc.spiky.green/discord</url>
+  <url type="contact">https://github.com/SpikyMC/SpikyMC/issues</url>
   <url type="vcs-browser">https://github.com/SpikyMC/SpikyMC</url>
   <url type="contribute">https://github.com/SpikyMC/SpikyMC/blob/develop/CONTRIBUTING.md</url>
   <content_rating type="oars-1.1">

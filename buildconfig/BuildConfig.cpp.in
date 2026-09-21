@@ -104,8 +104,6 @@ Config::Config()
         VERSION_CHANNEL = "unknown";
     }
 
-    NEWS_RSS_URL = "@Launcher_NEWS_RSS_URL@";
-    NEWS_OPEN_URL = "@Launcher_NEWS_OPEN_URL@";
     WIKI_URL = "@Launcher_WIKI_URL@";
     HELP_URL = "@Launcher_HELP_URL@";
     LOGIN_CALLBACK_URL = "@Launcher_LOGIN_CALLBACK_URL@";
@@ -119,10 +117,8 @@ Config::Config()
     SDL_LIBRARY_NAME = "@Launcher_SDL_LIBRARY_NAME@";
 
     BUG_TRACKER_URL = "@Launcher_BUG_TRACKER_URL@";
-    TRANSLATIONS_URL = "@Launcher_TRANSLATIONS_URL@";
     TRANSLATION_FILES_URL = "@Launcher_TRANSLATION_FILES_URL@";
     MATRIX_URL = "@Launcher_MATRIX_URL@";
-    DISCORD_URL = "@Launcher_DISCORD_URL@";
     SUBREDDIT_URL = "@Launcher_SUBREDDIT_URL@";
 }
 

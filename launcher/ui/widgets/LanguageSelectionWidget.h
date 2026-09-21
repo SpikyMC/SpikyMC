@@ -19,7 +19,6 @@
 
 class QVBoxLayout;
 class QTreeView;
-class QLabel;
 class Setting;
 class QCheckBox;
 
@@ -39,6 +38,5 @@ class LanguageSelectionWidget : public QWidget {
    private:
     QVBoxLayout* m_verticalLayout = nullptr;
     QTreeView* m_languageView = nullptr;
-    QLabel* m_helpUsLabel = nullptr;
     QCheckBox* m_formatCheckbox = nullptr;
 };

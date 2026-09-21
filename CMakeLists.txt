@@ -180,12 +180,10 @@ endif()
 ##################################### Set Application options #####################################
 
 ######## Set URLs ########
-set(Launcher_NEWS_RSS_URL "https://mc.spiky.green/feed/feed.xml" CACHE STRING "URL to fetch SpikyMC's news RSS feed from.")
-set(Launcher_NEWS_OPEN_URL "https://mc.spiky.green/news" CACHE STRING "URL that gets opened when the user clicks 'More News'")
-set(Launcher_WIKI_URL "https://mc.spiky.green/wiki/" CACHE STRING "URL that gets opened when the user clicks 'Launcher Help'")
-set(Launcher_HELP_URL "https://mc.spiky.green/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help in a dialog window")
-set(Launcher_LOGIN_CALLBACK_URL "https://mc.spiky.green/successful-login" CACHE STRING "URL that gets opened when the user successfully logins.")
-set(Launcher_LEGACY_FMLLIBS_BASE_URL "https://files.mc.spiky.green/fmllibs/" CACHE STRING "URL for legacy (<=1.5.2) FML Libraries.")
+set(Launcher_WIKI_URL "https://prismlauncher.org/wiki/" CACHE STRING "URL that gets opened when the user clicks 'Launcher Help'")
+set(Launcher_HELP_URL "https://prismlauncher.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help in a dialog window")
+set(Launcher_LOGIN_CALLBACK_URL "https://prismlauncher.org/successful-login" CACHE STRING "URL that gets opened when the user successfully logins.")
+set(Launcher_LEGACY_FMLLIBS_BASE_URL "https://files.prismlauncher.org/fmllibs/" CACHE STRING "URL for legacy (<=1.5.2) FML Libraries.")
 
 ######## Set version numbers ########
 set(Launcher_VERSION_MAJOR 12)
@@ -206,23 +204,18 @@ set(Launcher_UPDATER_GITHUB_REPO "https://github.com/SpikyMC/SpikyMC" CACHE STRI
 set(Launcher_BUILD_ARTIFACT "" CACHE STRING "Artifact name to help the updater identify valid artifacts.")
 
 # The metadata server
-set(Launcher_META_URL "https://meta.mc.spiky.green/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
+set(Launcher_META_URL "https://meta.prismlauncher.org/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
 
 # Bug tracker URL
 set(Launcher_BUG_TRACKER_URL "https://github.com/SpikyMC/SpikyMC/issues" CACHE STRING "URL for the bug tracker.")
 
-# Translations Platform URL
-set(Launcher_TRANSLATIONS_URL "https://hosted.weblate.org/projects/spikymc/launcher/" CACHE STRING "URL for the translations platform.")
-set(Launcher_TRANSLATION_FILES_URL "https://i18n.mc.spiky.green/" CACHE STRING "URL for the translations files.")
+set(Launcher_TRANSLATION_FILES_URL "https://i18n.prismlauncher.org/" CACHE STRING "URL for the translations files.")
 
 # Matrix Space
-set(Launcher_MATRIX_URL "https://mc.spiky.green/matrix" CACHE STRING "URL to the Matrix Space")
-
-# Discord URL
-set(Launcher_DISCORD_URL "https://mc.spiky.green/discord" CACHE STRING "URL for the Discord guild.")
+set(Launcher_MATRIX_URL "" CACHE STRING "URL to the Matrix Space")
 
 # Subreddit URL
-set(Launcher_SUBREDDIT_URL "https://mc.spiky.green/reddit" CACHE STRING "URL for the subreddit.")
+set(Launcher_SUBREDDIT_URL "" CACHE STRING "URL for the subreddit.")
 
 # Builds
 set(Launcher_QT_VERSION_MAJOR "6" CACHE STRING "Major Qt version to build against")
@@ -413,7 +406,7 @@ if(UNIX AND APPLE)
     set(MACOSX_BUNDLE_ICON_FILE ${Launcher_Name}.icns)
     set(MACOSX_BUNDLE_COPYRIGHT "${Launcher_Copyright_Mac}")
     set(MACOSX_SPARKLE_UPDATE_PUBLIC_KEY "4nHfeKCzvX+8mHbS9VJFmHVQ246LsGycmFQ17letQxU=" CACHE STRING "Public key for Sparkle update feed")
-    set(MACOSX_SPARKLE_UPDATE_FEED_URL "https://mc.spiky.green/feed/appcast.xml" CACHE STRING "URL for Sparkle update feed")
+    set(MACOSX_SPARKLE_UPDATE_FEED_URL "" CACHE STRING "URL for Sparkle update feed")
 
     set(MACOSX_SPARKLE_DOWNLOAD_URL "https://github.com/sparkle-project/Sparkle/releases/download/2.9.6/Sparkle-2.9.6.tar.xz" CACHE STRING "URL to Sparkle release archive")
     set(MACOSX_SPARKLE_SHA256 "52bf9e88cdd972fc0c81501377a880e90d47031bd8ca5462488f843e2609e192" CACHE STRING "SHA256 checksum for Sparkle release archive")

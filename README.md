@@ -8,7 +8,7 @@
 
 <p align="center">
   SpikyMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once.<br />
-  <br />SpikyMC is a <b>fork</b> of <a href="https://mc.spiky.green">SpikyMC</a>, which itself is a fork of <a href="https://multimc.org">MultiMC</a>. It is <b>not</b> endorsed by, affiliated with, or supported by the SpikyMC or MultiMC projects.
+  <br />SpikyMC is a <b>fork</b> of <a href="https://prismlauncher.org">Prism Launcher</a>, which itself is a fork of <a href="https://multimc.org">MultiMC</a>. It is <b>not</b> endorsed by, affiliated with, or supported by the Prism Launcher or MultiMC projects.
 </p>
 
 > [!NOTE]
@@ -16,7 +16,7 @@
 
 ## Installation
 
-- All downloads and installation instructions for SpikyMC can be found on our [Website](https://mc.spiky.green/download).
+- All downloads and installation instructions for SpikyMC can be found in the [Releases](https://github.com/SpikyMC/SpikyMC/releases).
 - The last build status can be found in the [GitHub Actions](https://github.com/SpikyMC/SpikyMC/actions) tab (this also includes the pull request status).
 
 ### Development Builds
@@ -32,16 +32,16 @@ These have debug information in the binaries, so their file sizes are relatively
 Prebuilt Development builds are provided for **Linux**, **Windows** and **macOS**.
 ## Building
 
-If you want to build SpikyMC yourself, check the [build instructions](https://example.com/build-instructions)
+If you want to build SpikyMC yourself, check the [build instructions](https://prismlauncher.org/wiki/development/build-instructions)
 
 ## Credits & Acknowledgements
 
 SpikyMC is based on the code and ideas of the following projects:
 
-- **[SpikyMC](https://mc.spiky.green)** — the launcher SpikyMC was forked from. Huge thanks to the SpikyMC team and all contributors.
+- **[Prism Launcher](https://prismlauncher.org)** — the launcher SpikyMC was forked from. Huge thanks to the Prism Launcher team and all contributors.
 - **[MultiMC](https://multimc.org)** — the original launcher from which SpikyMC originated.
 
-We are grateful to the SpikyMC community for their work.
+We are grateful to the Prism Launcher community for their work.
 
 ## Forking/Redistributing/Custom builds policy
 

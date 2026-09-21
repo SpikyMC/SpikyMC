@@ -102,9 +102,8 @@
             $ ninjaInstallPhase
             ```
 
-            Feel free to ask any questions in our Discord server or Matrix space:
-              - https://mc.spiky.green/discord
-              - https://matrix.to/#/#spikymc:matrix.org
+            Feel free to ask any questions in the GitHub issue tracker:
+              - https://github.com/SpikyMC/SpikyMC/issues
 
             And thanks for helping out :)
           '';

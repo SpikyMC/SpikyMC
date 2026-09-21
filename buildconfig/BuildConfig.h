@@ -144,11 +144,6 @@ class Config {
     QString LOGIN_CALLBACK_URL;
 
     /**
-     * Client ID you can get from Imgur when you register an application
-     */
-    QString IMGUR_CLIENT_ID;
-
-    /**
      * Client ID you can get from Microsoft Identity Platform when you register an application
      */
     QString MSA_CLIENT_ID;
@@ -175,7 +170,6 @@ class Config {
 
     QString DEFAULT_RESOURCE_BASE = "https://resources.download.minecraft.net/";
     QString LIBRARY_BASE = "https://libraries.minecraft.net/";
-    QString IMGUR_BASE_URL = "https://api.imgur.com/3/";
     QString LEGACY_FMLLIBS_BASE_URL;
     QString TRANSLATION_FILES_URL;
 

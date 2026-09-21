@@ -379,8 +379,6 @@ set(MINECRAFT_SOURCES
 # the screenshots feature
 set(SCREENSHOTS_SOURCES
     screenshots/Screenshot.h
-    screenshots/ImgurAPI.h
-    screenshots/ImgurAPI.cpp
 )
 
 set(TASKS_SOURCES

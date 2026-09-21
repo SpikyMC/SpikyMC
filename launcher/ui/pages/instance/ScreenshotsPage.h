@@ -66,14 +66,12 @@ class ScreenshotsPage : public QMainWindow, public BasePage {
     virtual QIcon icon() const override { return QIcon::fromTheme("screenshots"); }
     virtual QString id() const override { return "screenshots"; }
     virtual QString helpPage() const override { return "Screenshots-management"; }
-    virtual bool apply() override { return !m_uploadActive; }
     void retranslate() override;
 
    protected:
     QMenu* createPopupMenu() override;
 
    private slots:
-    void on_actionUpload_triggered();
     void on_actionCopy_Image_triggered() const;
     void on_actionCopy_File_s_triggered() const;
     void on_actionDelete_triggered();
@@ -89,5 +87,4 @@ class ScreenshotsPage : public QMainWindow, public BasePage {
     std::shared_ptr<QIdentityProxyModel> m_filterModel;
     QString m_folder;
     bool m_valid = false;
-    bool m_uploadActive = false;
 };

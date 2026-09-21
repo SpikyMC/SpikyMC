@@ -1,12 +1,15 @@
 ﻿{
   description = "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)";
 
-  nixConfig = {
-    extra-substituters = [ "https://spikymc.cachix.org" ];
-    extra-trusted-public-keys = [
-      "spikymc.cachix.org-1:9/n/FGyABA2jLUVfY+DEp4hKds/rwO+SCOtbOkDzd+c="
-    ];
-  };
+  # TODO(SpikyMC): enable once a SpikyMC Cachix cache exists.
+  # Create a cache at https://app.cachix.org, then replace the values below with
+  # the real cache name and its public key (do NOT reuse Prism Launcher's key).
+  # nixConfig = {
+  #   extra-substituters = [ "https://spikymc.cachix.org" ];
+  #   extra-trusted-public-keys = [
+  #     "spikymc.cachix.org-1:<your-cache-public-key>"
+  #   ];
+  # };
 
   inputs = {
     nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";

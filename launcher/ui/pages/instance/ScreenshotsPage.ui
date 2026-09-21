@@ -58,18 +58,12 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionUpload"/>
    <addaction name="actionCopy_Image"/>
    <addaction name="actionCopy_File_s"/>
    <addaction name="actionDelete"/>
    <addaction name="actionRename"/>
    <addaction name="actionView_Folder"/>
   </widget>
-  <action name="actionUpload">
-   <property name="text">
-    <string>Upload</string>
-   </property>
-  </action>
   <action name="actionDelete">
    <property name="text">
     <string>Delete</string>

@@ -272,8 +272,7 @@ set(Launcher_MSA_CLIENT_ID "dd5fb8c6-7af0-4279-9d44-479969364a48" CACHE STRING "
 # By using this key in your builds you accept the terms and conditions laid down in
 # https://support.curseforge.com/en/support/solutions/articles/9000207405-curse-forge-3rd-party-api-terms-and-conditions
 # NOTE: CurseForge requires you to change this if you make any kind of derivative work.
-# TODO(SpikyMC): still Prism Launcher's key - register a SpikyMC key and replace before release.
-set(Launcher_CURSEFORGE_API_KEY "$2a$10$wuAJuNZuted3NORVmpgUC.m8sI.pv1tOPKZyBgLFGjxFp/br0lZCC" CACHE STRING "API key for the CurseForge platform")
+set(Launcher_CURSEFORGE_API_KEY "$2a$10$dasCATQh7bdf53YAB3kOK.De4gZ4IMLlZN86xXudWsgSu.fIYd3jS" CACHE STRING "API key for the CurseForge platform")
 
 set(Launcher_COMPILER_NAME ${CMAKE_CXX_COMPILER_ID})
 set(Launcher_COMPILER_VERSION ${CMAKE_CXX_COMPILER_VERSION})

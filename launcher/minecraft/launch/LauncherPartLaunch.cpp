@@ -126,7 +126,7 @@ void LauncherPartLaunch::executeTask()
 #else
     args << classPath.join(':');
 #endif
-    args << "green.spiky.mc.EntryPoint";
+    args << "team.spiky.mc.EntryPoint";
 
     qDebug() << args.join(' ');
 

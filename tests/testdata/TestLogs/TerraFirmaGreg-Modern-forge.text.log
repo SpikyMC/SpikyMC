@@ -6,17 +6,17 @@ Checking: MOJMAPS
 Checking: PATCHED
 Checking: MC_SRG
 2025-04-18 12:47:23,932 main WARN Advanced terminal features are not available in this environment
-[12:47:24] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Ryexandrite, --version, 1.20.1, --gameDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[12:47:24] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Ryexandrite, --version, 1.20.1, --gameDir, /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
 [12:47:24] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Linux arch amd64 version 6.6.85
 [12:47:24] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
 [12:47:24] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
 [12:47:24] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[12:47:24] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23140!/ Service=ModLauncher Env=CLIENT
+[12:47:24] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23140!/ Service=ModLauncher Env=CLIENT
 [12:47:24] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 5700 XT (radeonsi, navi10, LLVM 19.1.7, DRM 3.54, 6.6.85) GL version 4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f), AMD
-[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.6/fmlcore-1.20.1-47.2.6.jar is missing mods.toml file
-[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.6/javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file
-[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.6/lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file
-[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.6/mclanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.6/fmlcore-1.20.1-47.2.6.jar is missing mods.toml file
+[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.6/javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.6/lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[12:47:25] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.6/mclanguage-1.20.1-47.2.6.jar is missing mods.toml file
 [12:47:25] [main/WARN] [ne.mi.ja.se.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
 [12:47:25] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 28 dependencies adding them to mods collection
 [12:47:28] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
@@ -24,7 +24,7 @@ Checking: MC_SRG
 [12:47:28] [main/ERROR] [mixin/]: Mixin config mixins.satin.client.json does not specify "minVersion" property
 [12:47:28] [main/ERROR] [mixin/]: Mixin config firstperson.mixins.json does not specify "minVersion" property
 [12:47:28] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
-[12:47:28] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/assets, --uuid, <PROFILE ID>, --username, Ryexandrite, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[12:47:28] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft, --assetsDir, /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/assets, --uuid, <PROFILE ID>, --username, Ryexandrite, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
 [12:47:28] [main/INFO] [co.ab.sa.co.Saturn/]: Loaded Saturn config file with 4 configurable options
 [12:47:28] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.20.1: 83 options available, 1 override(s) found
 [12:47:28] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
@@ -286,8 +286,8 @@ Checking: MC_SRG
 [12:47:33] [pool-4-thread-1/INFO] [minecraft/Bootstrap]: Vanilla bootstrap took 779 milliseconds
 [12:47:34] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
 [12:47:34] [pool-4-thread-1/INFO] [co.al.me.MERequester/]: Registering content
-[12:47:35] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/assets/.mcassetsroot' uses unexpected schema
-[12:47:35] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/data/.mcassetsroot' uses unexpected schema
+[12:47:35] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/assets/.mcassetsroot' uses unexpected schema
+[12:47:35] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23444!/data/.mcassetsroot' uses unexpected schema
 [12:47:35] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
 [12:47:35] [Render thread/INFO] [minecraft/Minecraft]: Setting user: Ryexandrite
 [12:47:35] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
@@ -498,14 +498,14 @@ Checking: MC_SRG
 [12:47:37] [modloading-worker-0/INFO] [MEGA Cells/]: Initialised blocks.
 [12:47:37] [modloading-worker-0/INFO] [MEGA Cells/]: Initialised block entities.
 [12:47:37] [modloading-worker-0/INFO] [de.ke.fa.FancyMenu/]: [FANCYMENU] Loading v3.2.3 in client-side mode on FORGE!
-[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Loading config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
-[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Built config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
-[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Loaded config: /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
+[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Loading config: /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
+[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Built config: /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
+[12:47:37] [modloading-worker-0/INFO] [showcaseitem/]: Loaded config: /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/showcaseitem-common.toml
 [12:47:37] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
 [12:47:37] [modloading-worker-0/INFO] [me.tr.be.BetterF3Forge/]: [BetterF3] Starting...
 [12:47:37] [modloading-worker-0/INFO] [me.tr.be.BetterF3Forge/]: [BetterF3] Loading...
 [12:47:37] [modloading-worker-0/INFO] [de.to.pa.PacketFixer/]: Packet Fixer has been initialized successfully
-[12:47:37] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/yacl.json5'
+[12:47:37] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/yacl.json5'
 [12:47:37] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
 [12:47:37] [modloading-worker-0/INFO] [me.tr.be.BetterF3Forge/]: [BetterF3] All done!
 [12:47:37] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for puzzleslib:main
@@ -676,7 +676,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [12:47:46] [Worker-Main-6/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.0.06.hex, loading
 [12:47:47] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
 [12:47:47] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[12:47:47] [FTB Backups Config Watcher 0/INFO] [ne.cr.ft.FTBBackups/]: Config at /home/ryex/.var/app/green.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/ftbbackups2.json has changed, reloaded!
+[12:47:47] [FTB Backups Config Watcher 0/INFO] [ne.cr.ft.FTBBackups/]: Config at /home/ryex/.var/app/team.spiky.mc.SpikyMC/data/SpikyMC/instances/TerraFirmaGreg-Modern/minecraft/config/ftbbackups2.json has changed, reloaded!
 [12:47:47] [Worker-ResourceReload-14/WARN] [minecraft/SpriteLoader]: Texture create_connected:block/fluid_container_window_debug with size 40x32 limits mip level from 4 to 3
 [12:47:47] [UniLib/INFO] [unilib/]: Received update status for "unilib" -> Outdated (Target version: "v1.0.5")
 [12:47:47] [UniLib/INFO] [unilib/]: Received update status for "craftpresence" -> Outdated (Target version: "v2.5.4")

@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-LAUNCHER_APPID="green.spiky.mc.SpikyMC"
+LAUNCHER_APPID="team.spiky.mc.SpikyMC"
 
 svg2png() {
     input_file="$1"

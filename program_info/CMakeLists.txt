@@ -10,8 +10,8 @@ endif()
 
 set(Launcher_CommonName "SpikyMC")
 set(Launcher_DisplayName "SpikyMC")
-set(Launcher_AppID "green.spiky.mc.SpikyMC")
-set(Launcher_Domain "mc.spiky.green")
+set(Launcher_AppID "team.spiky.mc.SpikyMC")
+set(Launcher_Domain "mc.spiky.team")
 set(Launcher_Git "https://github.com/SpikyMC/SpikyMC")
 
 set(Launcher_Name "${Launcher_CommonName}" PARENT_SCOPE)

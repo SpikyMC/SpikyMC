@@ -1,8 +1,8 @@
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/program_info/green.spiky.SpikyMC.logo-darkmode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/program_info/green.spiky.SpikyMC.logo.svg">
-  <img alt="SpikyMC" src="/program_info/green.spiky.SpikyMC.logo.svg" width="40%">
+  <source media="(prefers-color-scheme: dark)" srcset="/program_info/team.spiky.SpikyMC.logo-darkmode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="/program_info/team.spiky.SpikyMC.logo.svg">
+  <img alt="SpikyMC" src="/program_info/team.spiky.SpikyMC.logo.svg" width="40%">
 </picture>
 </p>
 

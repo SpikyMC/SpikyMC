@@ -196,14 +196,14 @@ set(Launcher_VERSION_NAME4_COMMA "${Launcher_VERSION_MAJOR},${Launcher_VERSION_M
 
 # Optional build channel/designation appended to the version string, independent of the git branch.
 # Pre-release channels (alpha/beta/rc) must be requested explicitly via -D.
-# They get numbered automatically with the count of commits since the last tag (1.0.0-alpha.N).
+# They get numbered automatically with Launcher_BUILD_NUMBER (1.0.0-alpha.N).
 # Setting "stable" produces the bare version (1.0.0). Leaving empty produces a short commit
 # hash build (1.0.0-abcdef01), which becomes "stable" only when exactly on a matching release tag.
 set(Launcher_BUILD_CHANNEL "beta" CACHE STRING "Pre-release channel: alpha, beta, rc, stable, or empty for commit-hash builds.")
 
 # Pre-release build number used to name alpha/beta/rc builds (1.0.0-alpha.N).
 # Increment this before building the next pre-release; it is versions-controlled via git.
-set(Launcher_BUILD_NUMBER "1" CACHE STRING "Number of the current pre-release build (appended to alpha/beta/rc, e.g. alpha.1).")
+set(Launcher_BUILD_NUMBER "2" CACHE STRING "Number of the current pre-release build (appended to alpha/beta/rc, e.g. alpha.1).")
 
 # Build platform.
 set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")

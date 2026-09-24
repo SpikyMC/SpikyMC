@@ -111,9 +111,17 @@ MSALoginDialog::~MSALoginDialog()
 
 void MSALoginDialog::onTaskFailed(QString reason)
 {
+    // Only detach the task that actually failed, so the other flow can still finish
+    auto failing_task = qobject_cast<Task*>(sender());
+    if (failing_task == m_authflow_task.get()) {
+        m_authflow_task->disconnect();
+        disconnect(ui->buttonBox->button(QDialogButtonBox::Cancel), &QPushButton::clicked, m_authflow_task.get(), &Task::abort);
+    } else if (failing_task == m_devicecode_task.get()) {
+        m_devicecode_task->disconnect();
+        disconnect(ui->buttonBox->button(QDialogButtonBox::Cancel), &QPushButton::clicked, m_devicecode_task.get(), &Task::abort);
+    }
+
     // Set message
-    m_authflow_task->disconnect();
-    m_devicecode_task->disconnect();
     ui->stackedWidget->setCurrentIndex(0);
     auto lines = reason.split('\n');
     QString processed;
@@ -125,15 +133,6 @@ void MSALoginDialog::onTaskFailed(QString reason)
         }
     }
     ui->status->setText(processed);
-    auto task = m_authflow_task;
-    if (task->failReason().isEmpty()) {
-        task = m_devicecode_task;
-    }
-    if (task) {
-        ui->loadingLabel->setText(task->getStatus());
-    }
-    disconnect(ui->buttonBox->button(QDialogButtonBox::Cancel), &QPushButton::clicked, m_authflow_task.get(), &Task::abort);
-    disconnect(ui->buttonBox->button(QDialogButtonBox::Cancel), &QPushButton::clicked, m_devicecode_task.get(), &Task::abort);
     connect(ui->buttonBox->button(QDialogButtonBox::Cancel), &QPushButton::clicked, this, &MSALoginDialog::reject);
 }
 

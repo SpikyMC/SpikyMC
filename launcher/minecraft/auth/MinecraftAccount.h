@@ -116,7 +116,9 @@ class MinecraftAccount : public QObject, public Usable {
 
     AccountType accountType() const noexcept { return data.type; }
 
-    bool ownsMinecraft() const { return data.type != AccountType::Offline && data.minecraftEntitlement.ownsMinecraft; }
+    /// Whether the account is entitled to play Minecraft.
+    /// The license check has been removed: every account (including offline ones) is treated as full-licensed.
+    bool ownsMinecraft() const { return true; }
 
     bool hasProfile() const { return data.profileId().size() != 0; }
 

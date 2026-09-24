@@ -428,8 +428,7 @@ void Request::downloadFinished()
     }
 
     qCDebug(m_logCat) << getUid().toString() << "Request succeeded:" << m_url.toString();
-    emit succeeded();
-    emit finished();
+    emitSucceeded();
 }
 
 void Request::downloadReadyRead()

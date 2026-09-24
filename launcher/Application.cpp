@@ -655,7 +655,7 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         // Theming
         m_settings->registerSetting("IconTheme", QString());
         m_settings->registerSetting("ApplicationTheme", QString());
-        m_settings->registerSetting("BackgroundCat", QString("kitteh"));
+        m_settings->registerSetting("BackgroundCat", QString("spiky"));
 
         // Remembered state
         m_settings->registerSetting("LastUsedGroupForNewInstance", QString());
@@ -1276,7 +1276,7 @@ bool Application::createSetupWizard()
     if (wizardRequired) {
         // set default theme after going into theme wizard
         if (!validIcons) {
-            settings()->set("IconTheme", QString("pe_colored"));
+            settings()->set("IconTheme", QString("spiky"));
         }
         if (!validWidgets) {
 #if defined(Q_OS_WIN32)

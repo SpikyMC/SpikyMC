@@ -35,9 +35,7 @@
 
 #pragma once
 
-#include <QDate>
 #include <QFileInfo>
-#include <QList>
 #include <QString>
 #include <memory>
 #include "Result.h"
@@ -61,35 +59,4 @@ class BasicCatPack : public CatPack {
    protected:
     QString m_id;
     QString m_name;
-};
-
-class FileCatPack : public BasicCatPack {
-   public:
-    FileCatPack(QString id, QFileInfo& fileInfo) : BasicCatPack(id), m_path(fileInfo.absoluteFilePath()) {}
-    FileCatPack(QFileInfo& fileInfo) : FileCatPack(fileInfo.baseName(), fileInfo) {}
-    virtual QString path() const { return m_path; }
-
-   private:
-    QString m_path;
-};
-
-class JsonCatPack : public BasicCatPack {
-   public:
-    struct PartialDate {
-        int month;
-        int day;
-    };
-    struct Variant {
-        QString path;
-        PartialDate startTime;
-        PartialDate endTime;
-    };
-    static Result<std::unique_ptr<JsonCatPack>> create(const QFileInfo& manifestInfo);
-    QString path() const override;
-    QString path(QDate now) const;
-
-   private:
-    explicit JsonCatPack(QString id) : BasicCatPack(id) {}
-    QString m_default_path;
-    QList<Variant> m_variants;
 };

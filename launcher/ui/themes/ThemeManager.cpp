@@ -307,51 +307,11 @@ QString ThemeManager::addCatPack(std::unique_ptr<CatPack> catPack)
 
 void ThemeManager::initializeCatPacks()
 {
-    QList<std::pair<QString, QString>> defaultCats{ { "kitteh", QObject::tr("Background Cat (from MultiMC)") },
-                                                    { "rory", QObject::tr("Rory ID 11 (drawn by Ashtaka)") },
-                                                    { "rory-flat", QObject::tr("Rory ID 11 (flat edition, drawn by Ashtaka)") },
-                                                    { "teawie", QObject::tr("Teawie (drawn by SympathyTea)") } };
+    QList<std::pair<QString, QString>> defaultCats{ { "spiky", QObject::tr("Spiky") } };
     for (auto [id, name] : defaultCats) {
         addCatPack(std::unique_ptr<CatPack>(new BasicCatPack(id, name)));
     }
-    if (!m_catPacksFolder.mkpath("."))
-        themeWarningLog() << "Couldn't create catpacks folder";
-    themeDebugLog() << "CatPacks Folder Path:" << m_catPacksFolder.absolutePath();
-
-    QStringList supportedImageFormats;
-    for (auto format : QImageReader::supportedImageFormats()) {
-        supportedImageFormats.append("*." + format);
-    }
-    auto loadFiles = [this, supportedImageFormats](QDir dir) {
-        // Load image files directly
-        QDirIterator ImageFileIterator(dir.absoluteFilePath(""), supportedImageFormats, QDir::Files);
-        while (ImageFileIterator.hasNext()) {
-            QFile customCatFile(ImageFileIterator.next());
-            QFileInfo customCatFileInfo(customCatFile);
-            themeDebugLog() << "Loading CatPack from:" << customCatFileInfo.absoluteFilePath();
-            addCatPack(std::unique_ptr<CatPack>(new FileCatPack(customCatFileInfo)));
-        }
-    };
-
-    loadFiles(m_catPacksFolder);
-
-    QDirIterator directoryIterator(m_catPacksFolder.path(), QDir::Dirs | QDir::NoDotAndDotDot);
-    while (directoryIterator.hasNext()) {
-        QDir dir(directoryIterator.next());
-        QFileInfo manifest(dir.absoluteFilePath("catpack.json"));
-        if (manifest.isFile()) {
-            // Load background manifest
-            themeDebugLog() << "Loading background manifest from:" << manifest.absoluteFilePath();
-            auto catPack = JsonCatPack::create(manifest);
-            if (!catPack) {
-                themeWarningLog() << "Couldn't load catpack json:" << catPack.error();
-            } else {
-                addCatPack(std::move(*catPack));
-            }
-        } else {
-            loadFiles(dir);
-        }
-    }
+    themeDebugLog() << "Loaded" << m_catPacks.size() << "background(s)";
 }
 
 void ThemeManager::refresh()

@@ -58,16 +58,7 @@ int main(int argc, char* argv[])
             Q_INIT_RESOURCE(documents);
             Q_INIT_RESOURCE(spikymc);
 
-            Q_INIT_RESOURCE(pe_dark);
-            Q_INIT_RESOURCE(pe_light);
-            Q_INIT_RESOURCE(pe_blue);
-            Q_INIT_RESOURCE(pe_colored);
-            Q_INIT_RESOURCE(breeze_dark);
-            Q_INIT_RESOURCE(breeze_light);
-            Q_INIT_RESOURCE(OSX);
-            Q_INIT_RESOURCE(iOS);
-            Q_INIT_RESOURCE(flat);
-            Q_INIT_RESOURCE(flat_white);
+            Q_INIT_RESOURCE(spiky);
 
             Q_INIT_RESOURCE(shaders);
             return app.exec();

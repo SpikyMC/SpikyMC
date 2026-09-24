@@ -180,19 +180,30 @@ endif()
 ##################################### Set Application options #####################################
 
 ######## Set URLs ########
-set(Launcher_WIKI_URL "https://prismlauncher.org/wiki/" CACHE STRING "URL that gets opened when the user clicks 'Launcher Help'")
-set(Launcher_HELP_URL "https://prismlauncher.org/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help in a dialog window")
-set(Launcher_LOGIN_CALLBACK_URL "https://prismlauncher.org/successful-login" CACHE STRING "URL that gets opened when the user successfully logins.")
-set(Launcher_LEGACY_FMLLIBS_BASE_URL "https://files.prismlauncher.org/fmllibs/" CACHE STRING "URL for legacy (<=1.5.2) FML Libraries.")
+set(Launcher_WIKI_URL "https://mc.spiky.team/wiki/" CACHE STRING "URL that gets opened when the user clicks 'Launcher Help'")
+set(Launcher_HELP_URL "https://mc.spiky.team/wiki/help-pages/%1" CACHE STRING "URL (with arg %1 to be substituted with page-id) that gets opened when the user requests help in a dialog window")
+set(Launcher_LOGIN_CALLBACK_URL "" CACHE STRING "URL that gets opened when the user successfully logins.")
+set(Launcher_LEGACY_FMLLIBS_BASE_URL "https://mc.spiky.team/fmllibs/" CACHE STRING "URL for legacy (<=1.5.2) FML Libraries.")
 
 ######## Set version numbers ########
-set(Launcher_VERSION_MAJOR 12)
+set(Launcher_VERSION_MAJOR 1)
 set(Launcher_VERSION_MINOR 0)
 set(Launcher_VERSION_PATCH 0)
 
 set(Launcher_VERSION_NAME "${Launcher_VERSION_MAJOR}.${Launcher_VERSION_MINOR}.${Launcher_VERSION_PATCH}")
 set(Launcher_VERSION_NAME4 "${Launcher_VERSION_MAJOR}.${Launcher_VERSION_MINOR}.${Launcher_VERSION_PATCH}.0")
 set(Launcher_VERSION_NAME4_COMMA "${Launcher_VERSION_MAJOR},${Launcher_VERSION_MINOR},${Launcher_VERSION_PATCH},0")
+
+# Optional build channel/designation appended to the version string, independent of the git branch.
+# Pre-release channels (alpha/beta/rc) must be requested explicitly via -D.
+# They get numbered automatically with the count of commits since the last tag (1.0.0-alpha.N).
+# Setting "stable" produces the bare version (1.0.0). Leaving empty produces a short commit
+# hash build (1.0.0-abcdef01), which becomes "stable" only when exactly on a matching release tag.
+set(Launcher_BUILD_CHANNEL "beta" CACHE STRING "Pre-release channel: alpha, beta, rc, stable, or empty for commit-hash builds.")
+
+# Pre-release build number used to name alpha/beta/rc builds (1.0.0-alpha.N).
+# Increment this before building the next pre-release; it is versions-controlled via git.
+set(Launcher_BUILD_NUMBER "1" CACHE STRING "Number of the current pre-release build (appended to alpha/beta/rc, e.g. alpha.1).")
 
 # Build platform.
 set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")
@@ -204,12 +215,12 @@ set(Launcher_UPDATER_GITHUB_REPO "https://github.com/SpikyTeam/SpikyMC" CACHE ST
 set(Launcher_BUILD_ARTIFACT "" CACHE STRING "Artifact name to help the updater identify valid artifacts.")
 
 # The metadata server
-set(Launcher_META_URL "https://meta.prismlauncher.org/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
+set(Launcher_META_URL "https://mc.spiky.team/meta/v1/" CACHE STRING "URL to fetch Launcher's meta files from.")
 
 # Bug tracker URL
 set(Launcher_BUG_TRACKER_URL "https://github.com/SpikyTeam/SpikyMC/issues" CACHE STRING "URL for the bug tracker.")
 
-set(Launcher_TRANSLATION_FILES_URL "https://i18n.prismlauncher.org/" CACHE STRING "URL for the translations files.")
+set(Launcher_TRANSLATION_FILES_URL "https://mc.spiky.team/i18n/" CACHE STRING "URL for the translations files.")
 
 # Matrix Space
 set(Launcher_MATRIX_URL "" CACHE STRING "URL to the Matrix Space")
@@ -259,8 +270,8 @@ endif()
 
 # By using this key in your builds you accept the terms of use laid down in
 # https://docs.microsoft.com/en-us/legal/microsoft-identity-platform/terms-of-use
-# This key was issued specifically for SpikyMC
-set(Launcher_MSA_CLIENT_ID "dd5fb8c6-7af0-4279-9d44-479969364a48" CACHE STRING "Client ID you can get from Microsoft Identity Platform when you register an application")
+# Microsoft Azure application registration for SpikyMC OAuth login
+set(Launcher_MSA_CLIENT_ID "c36a9fb6-4f2a-41ff-90bd-ae7cc92031eb" CACHE STRING "Client ID you can get from Microsoft Identity Platform when you register an application")
 
 # By using this key in your builds you accept the terms and conditions laid down in
 # https://support.curseforge.com/en/support/solutions/articles/9000207405-curse-forge-3rd-party-api-terms-and-conditions
@@ -281,6 +292,37 @@ get_git_head_revision(Launcher_GIT_REFSPEC Launcher_GIT_COMMIT)
 message(STATUS "Git commit: ${Launcher_GIT_COMMIT}")
 message(STATUS "Git tag: ${Launcher_GIT_TAG}")
 message(STATUS "Git refspec: ${Launcher_GIT_REFSPEC}")
+
+# Count the commits since the last reachable tag. Used to number local alpha builds (e.g. alpha.42).
+set(Launcher_GIT_LAST_TAG "")
+if(GIT_EXECUTABLE)
+    execute_process(
+        COMMAND "${GIT_EXECUTABLE}" describe --tags --abbrev=0 HEAD
+        WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
+        RESULT_VARIABLE GIT_DESCRIBE_RESULT
+        OUTPUT_VARIABLE Launcher_GIT_LAST_TAG
+        OUTPUT_STRIP_TRAILING_WHITESPACE
+        ERROR_QUIET
+    )
+    if(NOT GIT_DESCRIBE_RESULT EQUAL 0)
+        set(Launcher_GIT_LAST_TAG "")
+    endif()
+endif()
+set(Launcher_GIT_COMMITS_SINCE_TAG "")
+if(NOT Launcher_GIT_LAST_TAG STREQUAL "")
+    execute_process(
+        COMMAND "${GIT_EXECUTABLE}" rev-list --count "${Launcher_GIT_LAST_TAG}..HEAD"
+        WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
+        RESULT_VARIABLE GIT_COUNT_RESULT
+        OUTPUT_VARIABLE Launcher_GIT_COMMITS_SINCE_TAG
+        OUTPUT_STRIP_TRAILING_WHITESPACE
+        ERROR_QUIET
+    )
+    if(NOT GIT_COUNT_RESULT EQUAL 0)
+        set(Launcher_GIT_COMMITS_SINCE_TAG "")
+    endif()
+endif()
+message(STATUS "Commits since last tag (${Launcher_GIT_LAST_TAG}): ${Launcher_GIT_COMMITS_SINCE_TAG}")
 
 string(TIMESTAMP TODAY "%Y-%m-%d")
 set(Launcher_BUILD_TIMESTAMP "${TODAY}")

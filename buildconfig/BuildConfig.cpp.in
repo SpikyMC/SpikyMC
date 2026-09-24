@@ -95,13 +95,31 @@ Config::Config()
         GIT_COMMIT = "";
     }
 
-    if (GIT_REFSPEC.startsWith("refs/heads/")) {
-        VERSION_CHANNEL = GIT_REFSPEC;
-        VERSION_CHANNEL.remove("refs/heads/");
-    } else if (!GIT_COMMIT.isEmpty()) {
-        VERSION_CHANNEL = GIT_COMMIT.mid(0, 8);
-    } else {
-        VERSION_CHANNEL = "unknown";
+    // Build channel: "alpha", "beta", "rc" and "stable" must be requested explicitly
+    // via -DLauncher_BUILD_CHANNEL=<channel>. Without an explicit channel, non-tag builds
+    // are identified only by their short commit hash.
+    VERSION_CHANNEL = "@Launcher_BUILD_CHANNEL@";
+    if (VERSION_CHANNEL.isEmpty()) {
+        // No explicit channel requested.
+        // If we are exactly on a release tag that matches our version, treat this as a stable release.
+        // Otherwise, identify the build by the short commit hash (1.0.0-abcdef01).
+        if (GIT_TAG == versionString()) {
+            VERSION_CHANNEL = "stable";
+        } else if (!GIT_COMMIT.isEmpty()) {
+            VERSION_CHANNEL = GIT_COMMIT.mid(0, 8);
+        } else {
+            VERSION_CHANNEL = "stable";
+        }
+    } else if (VERSION_CHANNEL == "alpha" || VERSION_CHANNEL == "beta" || VERSION_CHANNEL == "rc") {
+        // A numbered pre-release: append the pre-release build number (alpha.N). N is stored in
+        // Launcher_BUILD_NUMBER and increments manually in CMakeLists.txt for each new pre-release.
+        QString buildNumber = "@Launcher_BUILD_NUMBER@";
+        if (!buildNumber.isEmpty() && buildNumber != "0") {
+            VERSION_CHANNEL += "." + buildNumber;
+        }
+    } else if (VERSION_CHANNEL == "stable") {
+        // Explicit stable release: drop the version suffix, keep the channel tag.
+        GIT_TAG = versionString();
     }
 
     WIKI_URL = "@Launcher_WIKI_URL@";
@@ -131,8 +149,8 @@ QString Config::printableVersionString() const
 {
     QString vstr = versionString();
 
-    // If the build is not a main release, append the channel
-    if (VERSION_CHANNEL != "stable" && GIT_TAG != vstr) {
+    // If the build is not a stable release, append the channel
+    if (VERSION_CHANNEL != "stable") {
         vstr += "-" + VERSION_CHANNEL;
     }
     return vstr;

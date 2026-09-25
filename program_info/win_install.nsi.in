@@ -1,4 +1,4 @@
-﻿!include "FileFunc.nsh"
+!include "FileFunc.nsh"
 !include "LogicLib.nsh"
 !include "MUI2.nsh"
 

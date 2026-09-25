@@ -1,4 +1,4 @@
-﻿# SpikyMC Program Info
+# SpikyMC Program Info
 
 This is SpikyMC's program info which contains information about:
 

@@ -36,6 +36,10 @@
  */
 
 #pragma once
+
+#ifndef BUILD_CONFIG_H
+#define BUILD_CONFIG_H
+
 #include <QList>
 #include <QString>
 
@@ -202,3 +206,5 @@ class Config {
 };
 
 extern const Config BuildConfig;
+
+#endif  // BUILD_CONFIG_H

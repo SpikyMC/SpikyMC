@@ -203,7 +203,7 @@ set(Launcher_BUILD_CHANNEL "beta" CACHE STRING "Pre-release channel: alpha, beta
 
 # Pre-release build number used to name alpha/beta/rc builds (1.0.0-alpha.N).
 # Increment this before building the next pre-release; it is versions-controlled via git.
-set(Launcher_BUILD_NUMBER "2" CACHE STRING "Number of the current pre-release build (appended to alpha/beta/rc, e.g. alpha.1).")
+set(Launcher_BUILD_NUMBER "13" CACHE STRING "Number of the current pre-release build (appended to alpha/beta/rc, e.g. alpha.1).")
 
 # Build platform.
 set(Launcher_BUILD_PLATFORM "unknown" CACHE STRING "A short string identifying the platform that this build was built for. Only used to display in the about dialog.")

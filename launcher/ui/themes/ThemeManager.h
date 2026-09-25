@@ -91,5 +91,5 @@ class ThemeManager {
     NSObject* m_windowTitlebarObserver = nullptr;
 #endif
 
-    const QStringList builtinIcons{"spiky"};
+    const QStringList builtinIcons{"spiky", "spikydark"};
 };

@@ -66,6 +66,7 @@
 #include "ui/pages/global/LauncherPage.h"
 #include "ui/pages/global/MinecraftPage.h"
 #include "ui/pages/global/ProxyPage.h"
+#include "ui/pages/global/DiscordRPCPage.h"
 
 #include "ui/setupwizard/AutoJavaWizardPage.h"
 #include "ui/setupwizard/JavaWizardPage.h"
@@ -107,6 +108,7 @@
 
 #include "InstanceList.h"
 #include "MTPixmapCache.h"
+#include "discordrpc/DiscordPresenceManager.h"
 
 #include <minecraft/auth/AccountList.h>
 #include "icons/IconList.h"
@@ -653,9 +655,19 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         m_settings.reset(new INISettingsObject({ BuildConfig.LAUNCHER_CONFIGFILE, "polymc.cfg", "multimc.cfg" }, this));
 
         // Theming
-        m_settings->registerSetting("IconTheme", QString());
-        m_settings->registerSetting("ApplicationTheme", QString());
+        m_settings->registerSetting("IconTheme", QString("spiky"));
+        m_settings->registerSetting("ApplicationTheme", QString("dark"));
         m_settings->registerSetting("BackgroundCat", QString("spiky"));
+        m_settings->registerSetting("DiscordPresence", true);
+        m_settings->registerSetting("DiscordClientId", QString("1552988203605041234"));
+        m_settings->registerSetting("DiscordShowLauncherPresence", true);
+        m_settings->registerSetting("DiscordShowGamePresence", true);
+        m_settings->registerSetting("DiscordShowInstanceName", true);
+        m_settings->registerSetting("DiscordShowVersion", true);
+        m_settings->registerSetting("DiscordLargeImage", QString("spikymc"));
+        m_settings->registerSetting("DiscordLargeImageText", QString("SpikyMC"));
+        m_settings->registerSetting("DiscordSmallImage", QString());
+        m_settings->registerSetting("DiscordSmallImageText", QString());
 
         // Remembered state
         m_settings->registerSetting("LastUsedGroupForNewInstance", QString());
@@ -930,6 +942,7 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
             m_globalSettingsProvider->addPage<APIPage>();
             m_globalSettingsProvider->addPage<ExternalToolsPage>();
             m_globalSettingsProvider->addPage<ProxyPage>();
+            m_globalSettingsProvider->addPage<DiscordRPCPage>();
         }
 
         PixmapCache::setInstance(new PixmapCache(this));
@@ -1016,6 +1029,11 @@ Application::Application(int& argc, char** argv) : QApplication(argc, argv)
         qInfo() << "Loading Instances...";
         m_instances->loadList();
         qInfo() << "<> Instances loaded.";
+    }
+
+    // Discord Rich Presence
+    {
+        m_discordPresence.reset(new DiscordPresenceManager(m_instances.get(), this));
     }
 
     // and accounts
@@ -1279,14 +1297,7 @@ bool Application::createSetupWizard()
             settings()->set("IconTheme", QString("spiky"));
         }
         if (!validWidgets) {
-#if defined(Q_OS_WIN32)
-            const QString style =
-                QGuiApplication::styleHints()->colorScheme() == Qt::ColorScheme::Dark ? QStringLiteral("dark") : QStringLiteral("bright");
-#else
-            const QString style = QStringLiteral("system");
-#endif
-
-            settings()->set("ApplicationTheme", style);
+            settings()->set("ApplicationTheme", QString("dark"));
         }
 
         m_themeManager->applyCurrentlySelectedTheme(true);

@@ -59,6 +59,7 @@ int main(int argc, char* argv[])
             Q_INIT_RESOURCE(spikymc);
 
             Q_INIT_RESOURCE(spiky);
+            Q_INIT_RESOURCE(spikydark);
 
             Q_INIT_RESOURCE(shaders);
             return app.exec();

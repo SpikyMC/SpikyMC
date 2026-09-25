@@ -45,30 +45,10 @@ jobs:
         run: |
           mv ${{ github.workspace }}/SpikyMC-source SpikyMC-${{ env.VERSION }}
           mv SpikyMC-Linux-Qt6-Portable*/SpikyMC-portable.tar.gz SpikyMC-Linux-Qt6-Portable-${{ env.VERSION }}.tar.gz
-          mv SpikyMC-Linux-aarch64-Qt6-Portable*/SpikyMC-portable.tar.gz SpikyMC-Linux-aarch64-Qt6-Portable-${{ env.VERSION }}.tar.gz
           mv SpikyMC-*.AppImage/SpikyMC-*-x86_64.AppImage SpikyMC-Linux-x86_64.AppImage
           mv SpikyMC-*.AppImage.zsync/SpikyMC-*-x86_64.AppImage.zsync SpikyMC-Linux-x86_64.AppImage.zsync
-          mv SpikyMC-*.AppImage/SpikyMC-*-aarch64.AppImage SpikyMC-Linux-aarch64.AppImage
-          mv SpikyMC-*.AppImage.zsync/SpikyMC-*-aarch64.AppImage.zsync SpikyMC-Linux-aarch64.AppImage.zsync
-          mv SpikyMC-macOS*/SpikyMC.zip SpikyMC-macOS-${{ env.VERSION }}.zip
-          mv SpikyMC-macOS*/SpikyMC.dmg SpikyMC-macOS-${{ env.VERSION }}.dmg
 
           tar --exclude='.git' -czf SpikyMC-${{ env.VERSION }}.tar.gz SpikyMC-${{ env.VERSION }}
-
-          for d in SpikyMC-Windows-MSVC*; do
-            cd "${d}" || continue
-            LEGACY="$(echo -n ${d} | grep -o Legacy || true)"
-            ARM64="$(echo -n ${d} | grep -o arm64 || true)"
-            INST="$(echo -n ${d} | grep -o Setup || true)"
-            PORT="$(echo -n ${d} | grep -o Portable || true)"
-            NAME="SpikyMC-Windows-MSVC"
-            test -z "${LEGACY}" || NAME="${NAME}-Legacy"
-            test -z "${ARM64}" || NAME="${NAME}-arm64"
-            test -z "${PORT}" || NAME="${NAME}-Portable"
-            test -z "${INST}" || mv SpikyMC-*.exe ../${NAME}-Setup-${{ env.VERSION }}.exe
-            test -n "${INST}" || zip -r -9 "../${NAME}-${{ env.VERSION }}.zip" *
-            cd ..
-          done
 
           for d in SpikyMC-Windows-MinGW-w64*; do
             cd "${d}" || continue
@@ -94,19 +74,8 @@ jobs:
           files: |
             SpikyMC-Linux-x86_64.AppImage
             SpikyMC-Linux-x86_64.AppImage.zsync
-            SpikyMC-Linux-aarch64.AppImage
-            SpikyMC-Linux-aarch64.AppImage.zsync
             SpikyMC-Linux-Qt6-Portable-${{ env.VERSION }}.tar.gz
-            SpikyMC-Linux-aarch64-Qt6-Portable-${{ env.VERSION }}.tar.gz
             SpikyMC-Windows-MinGW-w64-${{ env.VERSION }}.zip
             SpikyMC-Windows-MinGW-w64-Portable-${{ env.VERSION }}.zip
             SpikyMC-Windows-MinGW-w64-Setup-${{ env.VERSION }}.exe
-            SpikyMC-Windows-MSVC-arm64-${{ env.VERSION }}.zip
-            SpikyMC-Windows-MSVC-arm64-Portable-${{ env.VERSION }}.zip
-            SpikyMC-Windows-MSVC-arm64-Setup-${{ env.VERSION }}.exe
-            SpikyMC-Windows-MSVC-${{ env.VERSION }}.zip
-            SpikyMC-Windows-MSVC-Portable-${{ env.VERSION }}.zip
-            SpikyMC-Windows-MSVC-Setup-${{ env.VERSION }}.exe
-            SpikyMC-macOS-${{ env.VERSION }}.zip
-            SpikyMC-macOS-${{ env.VERSION }}.dmg
             SpikyMC-${{ env.VERSION }}.tar.gz

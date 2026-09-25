@@ -22,5 +22,5 @@ jobs:
         with:
           identifier: SpikyTeam.SpikyMC
           version: ${{ github.event.release.tag_name }}
-          installers-regex: 'SpikyMC-Windows-MSVC(:?-arm64|-Legacy)?-Setup-.+\.exe$'
+          installers-regex: 'SpikyMC-Windows-MinGW-w64-Setup-.+\.exe$'
           token: ${{ secrets.WINGET_TOKEN }}

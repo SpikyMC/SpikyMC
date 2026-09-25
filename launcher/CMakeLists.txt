@@ -927,6 +927,14 @@ SET(LAUNCHER_SOURCES
     ui/pages/global/ProxyPage.h
     ui/pages/global/APIPage.cpp
     ui/pages/global/APIPage.h
+    ui/pages/global/DiscordRPCPage.cpp
+    ui/pages/global/DiscordRPCPage.h
+
+    # Discord Rich Presence
+    discordrpc/DiscordRPC.cpp
+    discordrpc/DiscordRPC.h
+    discordrpc/DiscordPresenceManager.cpp
+    discordrpc/DiscordPresenceManager.h
 
     # GUI - platform pages
     ui/pages/modplatform/CustomPage.cpp
@@ -1183,6 +1191,7 @@ qt_add_resources(LAUNCHER_RESOURCES
     resources/backgrounds/backgrounds.qrc
     resources/multimc/multimc.qrc
     resources/spiky/spiky.qrc
+    resources/spikydark/spikydark.qrc
     resources/documents/documents.qrc
     resources/shaders/shaders.qrc
     "${CMAKE_CURRENT_BINARY_DIR}/../${Launcher_Branding_LogoQRC}"

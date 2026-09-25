@@ -75,6 +75,7 @@ class ThemeManager;
 class IconTheme;
 class BaseInstance;
 class MinecraftInstance;
+class DiscordPresenceManager;
 
 class LogModel;
 
@@ -135,6 +136,8 @@ class Application : public QApplication {
     JavaInstallList* javalist();
 
     InstanceList* instances() const { return m_instances.get(); }
+
+    DiscordPresenceManager* discordPresence() const { return m_discordPresence.get(); }
 
     IconList* icons() const { return m_icons.get(); }
 
@@ -264,6 +267,7 @@ class Application : public QApplication {
     std::unique_ptr<GenericPageProvider> m_globalSettingsProvider;
     QSet<QString> m_features;
     std::unique_ptr<ThemeManager> m_themeManager;
+    std::unique_ptr<DiscordPresenceManager> m_discordPresence;
 
     QMap<QString, std::shared_ptr<BaseProfilerFactory>> m_profilers;
 
